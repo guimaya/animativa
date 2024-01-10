@@ -10,10 +10,14 @@ const config: Config = {
     extend: {
       backgroundImage: {
         hero: "url('../../public/background-hero.jpg')",
-        warner: "url('/img/footer-texture.png')"
+        warner: "url('../../public/background-warner.jpg')"
       },
       fontFamily: {
         heading: ['var(--font-heading)']
+      },
+      colors: {
+        'custom-green': '#CDFF46',
+        'custom-yellow': '#FFF528'
       }
     }
   },
