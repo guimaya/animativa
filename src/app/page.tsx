@@ -22,13 +22,13 @@ export default function Home() {
     <main className='flex min-h-screen flex-col items-center overflow-x-hidden'>
       <section className='flex flex-col bg-hero bg-no-repeat bg-cover min-h-screen justify-around items-center text-center space-y-6 p-6'>
         <Image src={Logo} alt='Logo Animativa' />
-        <div className='sm:w-3/4 space-y-40'>
-          <p className='font-heading text-2xl sm:text-5xl'>
+        <div className='text-2xl sm:text-4xl sm:w-3/4 space-y-20 sm:space-y-40'>
+          <p className='font-heading'>
             A Animativa lançou em abril de 2023 algumas campanhas para a sua
             força de vendas superar as metas e colocar ainda mais din din no
             bolso.
           </p>
-          <p className='text-2xl sm:text-5xl text-custom-green font-bold'>
+          <p className='text-custom-green font-bold'>
             Conheça cada uma delas e veja quem está no topo dos rankings. Ainda
             dá tempo de participar e ganhar muitos prêmios.
           </p>
