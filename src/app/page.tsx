@@ -79,7 +79,7 @@ export default function Home() {
               <Image src={WarnerBookFour} alt='Livro Warner' />
             </div> */}
           </div>
-          <div className='pt-10 sm:pt-0 px-20'>
+          <div className='pt-10 sm:pt-0 px-20 sm:px-0'>
             <h2 className='font-heading text-6xl text-custom-yellow text-center sm:text-left'>
               Ranking
             </h2>
