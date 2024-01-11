@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Logo from '/public/logo-animativa.png'
 import MouseIcon from '/public/icon-mouse.svg'
+import MouseIconAnimated from '/public/asset.gif'
 
 import WarnerLogo from '/public/logo-warner.png'
 import WarnerBookOne from '/public/warner-book-one.png'
@@ -33,7 +34,11 @@ export default function Home() {
             dá tempo de participar e ganhar muitos prêmios.
           </p>
         </div>
-        <Image src={MouseIcon} alt='Arraste para baixo' className='' />
+        <Image
+          src={MouseIconAnimated}
+          alt='Arraste para baixo'
+          className='rotate-180 invert'
+        />
       </section>
       <section className='flex flex-col bg-warner bg-no-repeat bg-cover min-h-screen justify-center p-6 sm:p-20'>
         <div className='flex flex-col justify-around sm:flex-row'>
