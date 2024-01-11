@@ -34,8 +34,8 @@ export default function Home() {
         </div>
         <Image src={MouseIcon} alt='Arraste para baixo' className='' />
       </section>
-      <section className='flex flex-col bg-warner bg-no-repeat bg-cover min-h-screen min-w-full justify-center p-6 sm:py-10'>
-        <div className='flex flex-col w-full justify-around sm:flex-row px-40'>
+      <section className='flex flex-col bg-warner bg-no-repeat bg-cover min-h-screen justify-center p-6 sm:py-10'>
+        <div className='flex flex-col justify-around sm:flex-row'>
           <div>
             <div className='flex items-center space-x-4 mb-20'>
               <Image src={WarnerLogo} alt='Logo Warner' />
@@ -116,8 +116,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='flex flex-col bg-carioca bg-no-repeat bg-cover min-h-screen min-w-full justify-center p-6 sm:py-10'>
-        <div className='flex flex-col w-full justify-around sm:flex-row px-40'>
+      <section className='flex flex-col bg-carioca bg-no-repeat bg-cover min-h-screen min-w-full justify-center sm:py-10'>
+        <div className='flex flex-col w-full justify-around sm:flex-row '>
           <div>
             <div className='flex items-center space-x-4 mb-20'>
               <Image src={CariocaLogo} alt='' />
@@ -230,7 +230,7 @@ export default function Home() {
         </div>
       </section>
       <section className='flex flex-col bg-faturamento bg-no-repeat bg-cover min-h-screen min-w-full justify-center items-center p-6 sm:py-20'>
-        <div className='flex flex-col w-full justify-around sm:flex-row px-2 sm:px-40'>
+        <div className='flex flex-col w-full justify-around sm:flex-row px-2 '>
           <div>
             <h2 className='font-heading text-6xl text-custom-pink text-center sm:text-left mb-10'>
               fatuRamento
