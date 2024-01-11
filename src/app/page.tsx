@@ -215,24 +215,25 @@ export default function Home() {
         </div>
       </section>
       <section className='flex flex-col bg-faturamento bg-no-repeat bg-cover min-h-screen min-w-full justify-center items-center'>
-        <div className='flex flex-col w-full justify-around sm:flex-row px-40'>
+        <div className='flex flex-col w-full justify-around sm:flex-row px-2 sm:px-40'>
           <div>
-            <h2 className='font-heading text-7xl text-custom-pink mb-20'>
+            <h2 className='font-heading text-6xl text-custom-pink text-center sm:text-left'>
               fatuRamento
             </h2>
-            <div className='text-4xl font-semibold space-y-10 text-custom-purple [&_b]:text-custom-pink [&_b]:mr-1 [&_p]:w-1/2'>
+            <div className='text-2xl sm:text-4xl font-semibold space-y-10 text-custom-purple [&_b]:text-custom-pink [&_b]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
               <p>
                 <b>Ativação geral:</b>
                 atingir 260.1 milhões em vendas (90% do objetivo da companhia do
                 mercado interno 289 milhões).
               </p>
-              <p>
+              <p className='text-left'>
                 <b>Gatilho para ativar:</b>
+                <br />
                 Atingir 115% - 5 pontos <br />
                 Atingir de 100 a 114.99% - 3 pontos <br />
                 Atingir de 90 a 99.99% - 1 pontos
               </p>
-              <Accordion type='single' collapsible className='w-1/2'>
+              <Accordion type='single' collapsible className='sm:w-1/2 '>
                 <AccordionItem value='item-1' className='border-custom-purple'>
                   <AccordionTrigger className='font-bold text-3xl text-custom-pink text-left'>
                     Desconto concedido em negociações de vendas
@@ -242,7 +243,7 @@ export default function Home() {
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value='item-2' className='border-custom-purple'>
-                  <AccordionTrigger className='font-bold text-3xl text-custom-pink'>
+                  <AccordionTrigger className='font-bold text-3xl text-custom-pink text-left'>
                     Positivação por categoria de produto
                   </AccordionTrigger>
                   <AccordionContent>
@@ -256,7 +257,7 @@ export default function Home() {
                 Calculo: Quantidade de PDVs (fotos enviadas pelo cliente) / Base
                 de clientes Ativa
               </p>
-              <Accordion type='single' collapsible className='w-1/2'>
+              <Accordion type='single' collapsible className='sm:w-1/2'>
                 <AccordionItem value='item-1' className='border-custom-purple'>
                   <AccordionTrigger className='font-bold text-3xl text-custom-pink'>
                     Critério Final
