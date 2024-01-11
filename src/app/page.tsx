@@ -15,6 +15,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
+import { warnerRanking } from '@/constants'
 
 export default function Home() {
   return (
@@ -82,36 +83,13 @@ export default function Home() {
               [&_div]:rounded-full [&_div]:w-96 [&_div]:h-12 [&_div]:bg-white [&_div]:text-center [&_div]:items-center [&_div]:flex [&_div]:justify-center 
             [&_a]:text-black'
             >
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
+              {warnerRanking.map((position) => {
+                return (
+                  <div key={position.position}>
+                    <p>{position.name}</p>
+                  </div>
+                )
+              })}
             </div>
           </div>
         </div>
@@ -120,7 +98,7 @@ export default function Home() {
         <div className='flex flex-col w-full justify-around sm:flex-row '>
           <div>
             <div className='flex items-center space-x-4 mb-20'>
-              <Image src={CariocaLogo} alt='' />
+              <Image src={CariocaLogo} alt='Logo Carioca' />
               <h2 className='font-heading text-5xl sm:text-7xl text-custom-green'>
                 Carioca
               </h2>
