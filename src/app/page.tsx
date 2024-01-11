@@ -213,7 +213,7 @@ export default function Home() {
         </div>
       </section>
       <section className='flex flex-col bg-faturamento bg-no-repeat bg-cover min-h-screen justify-center items-center p-12 sm:p-20'>
-        <div className='flex flex-col justify-around sm:flex-row px-40'>
+        <div className='flex flex-col justify-around sm:flex-row'>
           <div className='px-20 sm:px-0'>
             <h2 className='font-heading text-6xl text-custom-pink text-center sm:text-left mb-10'>
               fatuRamento
