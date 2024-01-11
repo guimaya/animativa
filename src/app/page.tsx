@@ -38,7 +38,7 @@ export default function Home() {
         <div className='flex flex-col w-full justify-around sm:flex-row px-40'>
           <div>
             <div className='flex items-center space-x-4 mb-20'>
-              <Image src={WarnerLogo} alt='Lowo Warner' />
+              <Image src={WarnerLogo} alt='Logo Warner' />
               <h2 className='font-heading text-7xl text-custom-yellow'>
                 Warner
               </h2>
@@ -148,10 +148,7 @@ export default function Home() {
                 primeiros vendedores, leva mais R$ 15.000.;
               </p>
             </div>
-            <div
-              className='
-            mt-10'
-            >
+            <div className='pt-10'>
               <Accordion type='single' collapsible className='sm:w-1/2 '>
                 <AccordionItem value='item-1'>
                   <AccordionTrigger className='font-bold text-3xl'>
@@ -173,8 +170,10 @@ export default function Home() {
               </Accordion>
             </div>
           </div>
-          <div>
-            <h2 className='font-heading text-6xl text-custom-green'>Ranking</h2>
+          <div className='pt-10 sm:pt-0'>
+            <h2 className='font-heading text-6xl text-custom-green text-center sm:text-left'>
+              Ranking
+            </h2>
             <div
               className='text-black mt-10 space-y-4 
               [&_div]:rounded-full [&_div]:w-96 [&_div]:h-12 [&_div]:bg-white [&_div]:text-center [&_div]:items-center [&_div]:flex [&_div]:justify-center 
@@ -214,19 +213,19 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='flex flex-col bg-faturamento bg-no-repeat bg-cover min-h-screen min-w-full justify-center items-center'>
+      <section className='flex flex-col bg-faturamento bg-no-repeat bg-cover min-h-screen min-w-full justify-center items-center p-6 sm:py-20'>
         <div className='flex flex-col w-full justify-around sm:flex-row px-2 sm:px-40'>
           <div>
-            <h2 className='font-heading text-6xl text-custom-pink text-center sm:text-left'>
+            <h2 className='font-heading text-6xl text-custom-pink text-center sm:text-left mb-10'>
               fatuRamento
             </h2>
-            <div className='text-2xl sm:text-4xl font-semibold space-y-10 text-custom-purple [&_b]:text-custom-pink [&_b]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
+            <div className='text-2xl sm:text-4xl font-semibold space-y-10 text-custom-purple [&_b]:text-custom-pink [&_b]:mr-1 sm:[&_p]:w-1/2'>
               <p>
                 <b>Ativação geral:</b>
                 atingir 260.1 milhões em vendas (90% do objetivo da companhia do
                 mercado interno 289 milhões).
               </p>
-              <p className='text-left'>
+              <p>
                 <b>Gatilho para ativar:</b>
                 <br />
                 Atingir 115% - 5 pontos <br />
@@ -250,24 +249,23 @@ export default function Home() {
                     Yes. It adheres to the WAI-ARIA design pattern.
                   </AccordionContent>
                 </AccordionItem>
-              </Accordion>
-              <p>
-                <b>Acompanhamento de pdv</b>
-                <br />
-                Calculo: Quantidade de PDVs (fotos enviadas pelo cliente) / Base
-                de clientes Ativa
-              </p>
-              <Accordion type='single' collapsible className='sm:w-1/2'>
-                <AccordionItem value='item-1' className='border-custom-purple'>
-                  <AccordionTrigger className='font-bold text-3xl text-custom-pink'>
-                    Critério Final
+                <AccordionItem value='item-2' className='border-custom-purple'>
+                  <AccordionTrigger className='font-bold text-3xl text-custom-pink text-left'>
+                    Positivação por categoria de produto
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    Yes. It adheres to the WAI-ARIA design pattern.
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value='item-2' className='border-custom-purple'>
+                  <AccordionTrigger className='font-bold text-3xl text-custom-pink text-left'>
+                    Positivação por categoria de produto
                   </AccordionTrigger>
                   <AccordionContent>
                     Yes. It adheres to the WAI-ARIA design pattern.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
-
               <p>
                 <b>Premiação:</b>
                 <br />
@@ -283,8 +281,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div>
-            <h2 className='font-heading text-6xl text-custom-purple mt-40'>
+          <div className='pt-10 sm:pt-0'>
+            <h2 className='font-heading text-6xl text-custom-purple'>
               Ranking
             </h2>
             <div
