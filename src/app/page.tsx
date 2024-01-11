@@ -42,7 +42,7 @@ export default function Home() {
       </section>
       <section className='flex flex-col bg-warner bg-no-repeat bg-cover min-h-screen justify-center p-12 sm:p-20'>
         <div className='flex flex-col justify-around sm:flex-row'>
-          <div>
+          <div className='px-20 sm:px-0'>
             <div className='flex items-center space-x-4 mb-20'>
               <Image src={WarnerLogo} alt='Logo Warner' />
               <h2 className='font-heading text-7xl text-custom-yellow'>
@@ -79,7 +79,7 @@ export default function Home() {
               <Image src={WarnerBookFour} alt='Livro Warner' />
             </div> */}
           </div>
-          <div className='mt-10 sm:mt-0'>
+          <div className='pt-10 sm:pt-0 px-20'>
             <h2 className='font-heading text-6xl text-custom-yellow text-center sm:text-left'>
               Ranking
             </h2>
@@ -101,7 +101,7 @@ export default function Home() {
       </section>
       <section className='flex flex-col bg-carioca bg-no-repeat bg-cover min-h-screen min-w-full justify-center p-12 sm:p-20'>
         <div className='flex flex-col w-full justify-around sm:flex-row '>
-          <div>
+          <div className='px-4 sm:px-0'>
             <div className='flex items-center space-x-4 mb-20'>
               <Image src={CariocaLogo} alt='Logo Carioca' />
               <h2 className='font-heading text-5xl sm:text-7xl text-custom-green'>
@@ -213,8 +213,8 @@ export default function Home() {
         </div>
       </section>
       <section className='flex flex-col bg-faturamento bg-no-repeat bg-cover min-h-screen justify-center items-center p-12 sm:p-20'>
-        <div className='flex flex-col justify-around sm:flex-row px-2 '>
-          <div>
+        <div className='flex flex-col justify-around sm:flex-row px-40'>
+          <div className='px-20 sm:px-0'>
             <h2 className='font-heading text-6xl text-custom-pink text-center sm:text-left mb-10'>
               fatuRamento
             </h2>
@@ -318,7 +318,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className='pt-10 sm:pt-0'>
+          <div className='pt-10 sm:pt-0 px-20 sm:px-0'>
             <h2 className='font-heading text-6xl text-custom-purple text-center sm:text-left'>
               Ranking
             </h2>
