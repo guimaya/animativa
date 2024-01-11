@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <Image src={MouseIcon} alt='Arraste para baixo' className='' />
       </section>
-      <section className='flex flex-col bg-warner bg-no-repeat bg-cover min-h-screen justify-center p-6 sm:py-10'>
+      <section className='flex flex-col bg-warner bg-no-repeat bg-cover min-h-screen justify-center p-6 sm:p-20'>
         <div className='flex flex-col justify-around sm:flex-row'>
           <div>
             <div className='flex items-center space-x-4 mb-20'>
@@ -116,7 +116,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='flex flex-col bg-carioca bg-no-repeat bg-cover min-h-screen min-w-full justify-center sm:py-10'>
+      <section className='flex flex-col bg-carioca bg-no-repeat bg-cover min-h-screen min-w-full justify-center sm:p-20'>
         <div className='flex flex-col w-full justify-around sm:flex-row '>
           <div>
             <div className='flex items-center space-x-4 mb-20'>
@@ -191,7 +191,7 @@ export default function Home() {
               Ranking
             </h2>
             <div
-              className='text-black mt-10 space-y-4 
+              className='text-black mt-10 space-y-4 items-center justify-center
               [&_div]:rounded-full [&_div]:w-96 [&_div]:h-12 [&_div]:bg-white [&_div]:text-center [&_div]:items-center [&_div]:flex [&_div]:justify-center 
             [&_a]:text-black'
             >
@@ -229,8 +229,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='flex flex-col bg-faturamento bg-no-repeat bg-cover min-h-screen min-w-full justify-center items-center p-6 sm:py-20'>
-        <div className='flex flex-col w-full justify-around sm:flex-row px-2 '>
+      <section className='flex flex-col bg-faturamento bg-no-repeat bg-cover min-h-screen justify-center items-center sm:p-20'>
+        <div className='flex flex-col justify-around sm:flex-row px-2 '>
           <div>
             <h2 className='font-heading text-6xl text-custom-pink text-center sm:text-left mb-10'>
               fatuRamento
