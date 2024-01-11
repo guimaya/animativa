@@ -18,7 +18,7 @@ import {
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center antialiased'>
+    <main className='flex min-h-screen flex-col items-center'>
       <section className='flex flex-col bg-hero bg-no-repeat bg-cover min-h-screen justify-around items-center text-center space-y-6 p-6'>
         <Image src={Logo} alt='Logo Animativa' />
         <div className='sm:w-3/4 space-y-40'>
@@ -38,30 +38,30 @@ export default function Home() {
         <div className='flex flex-col w-full justify-around sm:flex-row px-40'>
           <div>
             <div className='flex items-center space-x-4 mb-20'>
-              <Image src={WarnerLogo} alt='' />
+              <Image src={WarnerLogo} alt='Lowo Warner' />
               <h2 className='font-heading text-7xl text-custom-yellow'>
                 Warner
               </h2>
             </div>
-            <div className='text-2xl sm:text-4xl font-semibold space-y-10 [&_a]:text-custom-yellow [&_a]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
+            <div className='text-2xl sm:text-4xl font-semibold space-y-10 [&_b]:text-custom-yellow [&_b]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
               <p>
-                <a>Ativação geral:</a>
+                <b>Ativação geral:</b>
                 atingir 4.9 milhões em vendas;
               </p>
               <p>
-                <a>Gatilho para ativar:</a>
+                <b>Gatilho para ativar:</b>
                 atingir 4.9 milhões em vendas;
               </p>
               <p>
-                <a>Gatilho individual:</a>
+                <b>Gatilho individual:</b>
                 ser o maior vendedor do período;
               </p>
               <p>
-                <a>Premiação:</a>
+                <b>Premiação:</b>
                 os 4 primeiros do ranking serão contemplados com R$ 10.000 cada;
               </p>
               <p>
-                <a>Premiação Bônus:</a>
+                <b>Premiação Bônus:</b>
                 quem atingir 200% do percentual individual dentro dos 4
                 primeiros vendedores, leva mais R$ 15.000.;
               </p>
@@ -125,25 +125,25 @@ export default function Home() {
                 Carioca
               </h2>
             </div>
-            <div className='text-2xl sm:text-4xl font-semibold space-y-10 [&_a]:text-custom-green [&_a]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
+            <div className='text-2xl sm:text-4xl font-semibold space-y-10 [&_b]:text-custom-green [&_b]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
               <p>
-                <a>Ativação geral:</a>
+                <b>Ativação geral:</b>
                 atingir 4.9 milhões em vendas;
               </p>
               <p>
-                <a>Gatilho para ativar:</a>
+                <b>Gatilho para ativar:</b>
                 atingir 4.9 milhões em vendas;
               </p>
               <p>
-                <a>Gatilho individual:</a>
+                <b>Gatilho individual:</b>
                 ser o maior vendedor do período;
               </p>
               <p>
-                <a>Premiação:</a>
+                <b>Premiação:</b>
                 os 4 primeiros do ranking serão contemplados com R$ 10.000 cada;
               </p>
               <p>
-                <a>Premiação Bônus:</a>
+                <b>Premiação Bônus:</b>
                 quem atingir 200% do percentual individual dentro dos 4
                 primeiros vendedores, leva mais R$ 15.000.;
               </p>
@@ -220,14 +220,14 @@ export default function Home() {
             <h2 className='font-heading text-7xl text-custom-pink mb-20'>
               fatuRamento
             </h2>
-            <div className='text-4xl font-semibold space-y-10 text-custom-purple [&_a]:text-custom-pink [&_a]:mr-1 [&_p]:w-1/2'>
+            <div className='text-4xl font-semibold space-y-10 text-custom-purple [&_b]:text-custom-pink [&_b]:mr-1 [&_p]:w-1/2'>
               <p>
-                <a>Ativação geral:</a>
+                <b>Ativação geral:</b>
                 atingir 260.1 milhões em vendas (90% do objetivo da companhia do
                 mercado interno 289 milhões).
               </p>
               <p>
-                <a>Gatilho para ativar:</a>
+                <b>Gatilho para ativar:</b>
                 Atingir 115% - 5 pontos <br />
                 Atingir de 100 a 114.99% - 3 pontos <br />
                 Atingir de 90 a 99.99% - 1 pontos
@@ -251,7 +251,7 @@ export default function Home() {
                 </AccordionItem>
               </Accordion>
               <p>
-                <a>Acompanhamento de pdv</a>
+                <b>Acompanhamento de pdv</b>
                 <br />
                 Calculo: Quantidade de PDVs (fotos enviadas pelo cliente) / Base
                 de clientes Ativa
@@ -268,7 +268,7 @@ export default function Home() {
               </Accordion>
 
               <p>
-                <a>Premiação:</a>
+                <b>Premiação:</b>
                 <br />
                 1º - Viagem internacional de até R$ 30.000
                 <br />
