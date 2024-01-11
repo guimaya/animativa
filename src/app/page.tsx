@@ -21,7 +21,7 @@ import { warnerRanking } from '@/constants'
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center overflow-x-hidden'>
-      <section className='flex flex-col bg-hero bg-no-repeat bg-cover min-h-screen justify-around items-center text-center space-y-6 p-6'>
+      <section className='flex flex-col bg-hero bg-no-repeat bg-cover min-h-screen justify-around items-center text-center space-y-6 p-12'>
         <Image src={Logo} alt='Logo Animativa' />
         <div className='text-2xl sm:text-4xl sm:w-3/4 space-y-20 sm:space-y-40'>
           <p className='font-heading'>
@@ -40,7 +40,7 @@ export default function Home() {
           className='rotate-180 invert'
         />
       </section>
-      <section className='flex flex-col bg-warner bg-no-repeat bg-cover min-h-screen justify-center p-6 sm:p-20'>
+      <section className='flex flex-col bg-warner bg-no-repeat bg-cover min-h-screen justify-center p-12 sm:p-20'>
         <div className='flex flex-col justify-around sm:flex-row'>
           <div>
             <div className='flex items-center space-x-4 mb-20'>
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='flex flex-col bg-carioca bg-no-repeat bg-cover min-h-screen min-w-full justify-center sm:p-20'>
+      <section className='flex flex-col bg-carioca bg-no-repeat bg-cover min-h-screen min-w-full justify-center p-12 sm:p-20'>
         <div className='flex flex-col w-full justify-around sm:flex-row '>
           <div>
             <div className='flex items-center space-x-4 mb-20'>
@@ -212,7 +212,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='flex flex-col bg-faturamento bg-no-repeat bg-cover min-h-screen justify-center items-center sm:p-20'>
+      <section className='flex flex-col bg-faturamento bg-no-repeat bg-cover min-h-screen justify-center items-center p-12 sm:p-20'>
         <div className='flex flex-col justify-around sm:flex-row px-2 '>
           <div>
             <h2 className='font-heading text-6xl text-custom-pink text-center sm:text-left mb-10'>
