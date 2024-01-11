@@ -336,7 +336,7 @@ export default function Home() {
             </div>
           </div>
           <div className='pt-10 sm:pt-0'>
-            <h2 className='font-heading text-6xl text-custom-purple'>
+            <h2 className='font-heading text-6xl text-custom-purple text-center sm:text-left'>
               Ranking
             </h2>
             <div
