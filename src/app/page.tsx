@@ -50,7 +50,7 @@ export default function Home() {
               </p>
               <p>
                 <b>Gatilho para ativar:</b>
-                atingir 4.9 milhões em vendas;
+                vender 25% a mais que no período anterior;
               </p>
               <p>
                 <b>Gatilho individual:</b>
@@ -128,43 +128,59 @@ export default function Home() {
             <div className='text-2xl sm:text-4xl font-semibold space-y-10 [&_b]:text-custom-green [&_b]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
               <p>
                 <b>Ativação geral:</b>
-                atingir 4.9 milhões em vendas;
+                atingir 10.5 milhões em vendas;
               </p>
               <p>
                 <b>Gatilho para ativar:</b>
-                atingir 4.9 milhões em vendas;
-              </p>
-              <p>
-                <b>Gatilho individual:</b>
-                ser o maior vendedor do período;
+                atingir 70% da meta de vendas;
               </p>
               <p>
                 <b>Premiação:</b>
-                os 4 primeiros do ranking serão contemplados com R$ 10.000 cada;
+                Os 20 maiores compradores de Carioca concorrem a uma viagem à
+                Itália no valor de R$ 30.000 e os três representantes que mais
+                venderem recebem R$ 5.000 cada.;
               </p>
               <p>
-                <b>Premiação Bônus:</b>
-                quem atingir 200% do percentual individual dentro dos 4
-                primeiros vendedores, leva mais R$ 15.000.;
+                Incentivos de
+                <b className='ml-2'>Compre e ganhe:</b>
               </p>
-            </div>
-            <div className='pt-10'>
-              <Accordion type='single' collapsible className='sm:w-1/2 '>
+              <Accordion type='single' collapsible className='sm:w-2/3'>
                 <AccordionItem value='item-1'>
                   <AccordionTrigger className='font-bold text-3xl'>
                     Clientes
                   </AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
+                  <AccordionContent className='text-2xl font-semibold [&_b]:text-custom-green [&_b]:mr-1'>
+                    <b>3 primeiros:</b>a cada 100 mil reais em compras, ganham
+                    um IPhone 14 128gb cada;
+                  </AccordionContent>
+                  <AccordionContent className='text-2xl font-semibold [&_b]:text-custom-green [&_b]:mr-1'>
+                    <b>5 primeiros:</b>a cada 75 mil reais em compras, ganham
+                    um notebook cada;
+                  </AccordionContent>
+                  <AccordionContent className='text-2xl font-semibold [&_b]:text-custom-green [&_b]:mr-1'>
+                    <b>10 primeiros:</b>a cada 50 mil reais em compras, ganham
+                    um JBL, Caixa de Som Bluetooth cada;
+                  </AccordionContent>
+                  <AccordionContent className='text-2xl font-semibold [&_b]:text-custom-green [&_b]:mr-1'>
+                    <b>15 primeiros:</b>a cada 30 mil reais em compras, ganham
+                    um Smartwatch Galaxy Samsung Watch4 Bt 40mm – Preto cada;
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value='item-2'>
                   <AccordionTrigger className='font-bold text-3xl'>
                     Time de Vendas
                   </AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It comes with default styles that matches the other
-                    components&apos; aesthetic.
+                  <AccordionContent className='text-2xl font-semibold [&_b]:text-custom-green [&_b]:mr-1'>
+                    <b>3 primeiros:</b>a cada 100 mil reais em vendas, ganham um
+                    IPhone 14 128gb cada;
+                  </AccordionContent>
+                  <AccordionContent className='text-2xl font-semibold [&_b]:text-custom-green [&_b]:mr-1'>
+                    <b>5 primeiros:</b>a cada 50 mil reais em vendas, ganham um
+                    Notebook cada;
+                  </AccordionContent>
+                  <AccordionContent className='text-2xl font-semibold [&_b]:text-custom-green [&_b]:mr-1'>
+                    <b>10 primeiros:</b> a cada 30 mil reais em vendas, ganham
+                    uma JBL, Caixa de Som Bluetooth cada;
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
@@ -232,37 +248,75 @@ export default function Home() {
                 Atingir de 100 a 114.99% - 3 pontos <br />
                 Atingir de 90 a 99.99% - 1 pontos
               </p>
-              <Accordion type='single' collapsible className='sm:w-1/2 '>
+              <Accordion
+                type='single'
+                collapsible
+                className='sm:w-1/2 space-y-4'
+              >
                 <AccordionItem value='item-1' className='border-custom-purple'>
                   <AccordionTrigger className='font-bold text-3xl text-custom-pink text-left'>
                     Desconto concedido em negociações de vendas
                   </AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
+                  <AccordionContent className='text-2xl font-semibold'>
+                    Cálculo: A composição será feita considerando a RL para
+                    nivelar os preços entre os estados. Com isso, será feita a
+                    composição total da venda realizada versus o valor total de
+                    venda considerando o preço de tabela (Rec. Liq). Até 25% - 5
+                    pontos De 25.01 a 30% - 3 pontos De 30.1 a 35 % - 2 pontos
+                    De 35.1 a 42% - 1 ponto
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value='item-2' className='border-custom-purple'>
                   <AccordionTrigger className='font-bold text-3xl text-custom-pink text-left'>
                     Positivação por categoria de produto
                   </AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
+                  <AccordionContent className='text-2xl font-semibold pl-4'>
+                    <ul>
+                      <li>Commodity</li>
+                      <li>Marca própria</li>
+                      <li>Licenciado</li>
+                      <li>Impressos</li>
+                      <li>Agendas/Planners</li>
+                    </ul>
+                  </AccordionContent>
+                  <AccordionContent className='text-2xl font-semibold'>
+                    · Se 90% dos clientes da base comprarem todas as categorias
+                    participantes - 2 pontos
+                  </AccordionContent>
+                  <AccordionContent className='text-2xl font-semibold'>
+                    · Se 95% dos clientes da base comprarem todas as categorias
+                    participantes - 3 pontos
+                  </AccordionContent>
+                  <AccordionContent className='text-2xl font-semibold'>
+                    · Se 100% dos clientes da base comprarem todas as categorias
+                    participantes - 5 pontos
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value='item-2' className='border-custom-purple'>
+                <AccordionItem value='item-3' className='border-custom-purple'>
                   <AccordionTrigger className='font-bold text-3xl text-custom-pink text-left'>
-                    Positivação por categoria de produto
+                    Acompanhamento de PDVs
                   </AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
+                  <AccordionContent className='text-2xl font-semibold'>
+                    Calculo: Quantidade de PDVs (fotos enviadas pelo cliente) /
+                    Base de clientes Ativa
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value='item-2' className='border-custom-purple'>
+                <AccordionItem value='item-4' className='border-custom-purple'>
                   <AccordionTrigger className='font-bold text-3xl text-custom-pink text-left'>
-                    Positivação por categoria de produto
+                    Critério final
                   </AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
+                  <AccordionContent className='text-2xl font-semibold'>
+                    Soma das pontuações:
+                    <br /> · Se 90% dos clientes da base comprarem todas as
+                    categorias participantes - 2 pontos
+                  </AccordionContent>
+                  <AccordionContent className='text-2xl font-semibold'>
+                    · Se 95% dos clientes da base comprarem todas as categorias
+                    participantes - 3 pontos
+                  </AccordionContent>
+                  <AccordionContent className='text-2xl font-semibold'>
+                    · Se 100% dos clientes da base comprarem todas as categorias
+                    participantes - 5 pontos
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
