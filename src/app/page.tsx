@@ -18,7 +18,7 @@ import {
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center'>
+    <main className='flex min-h-screen flex-col items-center overflow-x-hidden'>
       <section className='flex flex-col bg-hero bg-no-repeat bg-cover min-h-screen justify-around items-center text-center space-y-6 p-6'>
         <Image src={Logo} alt='Logo Animativa' />
         <div className='sm:w-3/4 space-y-40'>
@@ -66,12 +66,12 @@ export default function Home() {
                 primeiros vendedores, leva mais R$ 15.000.;
               </p>
             </div>
-            <div className='flex flex-auto sm:space-x-8 mt-10 sm:mt-20'>
+            {/* <div className='flex flex-auto sm:space-x-8 mt-10 sm:mt-20'>
               <Image src={WarnerBookOne} alt='Livro Warner' />
               <Image src={WarnerBookTwo} alt='Livro Warner' />
               <Image src={WarnerBookThee} alt='Livro Warner' />
               <Image src={WarnerBookFour} alt='Livro Warner' />
-            </div>
+            </div> */}
           </div>
           <div className='mt-10 sm:mt-0'>
             <h2 className='font-heading text-6xl text-custom-yellow text-center sm:text-left'>
