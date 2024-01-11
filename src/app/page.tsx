@@ -43,7 +43,7 @@ export default function Home() {
                 Warner
               </h2>
             </div>
-            <div className='text-2xl sm:text-4xl font-semibold space-y-10 [&_b]:text-custom-yellow [&_b]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
+            <div className='text-2xl sm:text-3xl font-semibold space-y-10 [&_b]:text-custom-yellow [&_b]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
               <p>
                 <b>Ativação geral:</b>
                 atingir 4.9 milhões em vendas;
@@ -125,7 +125,7 @@ export default function Home() {
                 Carioca
               </h2>
             </div>
-            <div className='text-2xl sm:text-4xl font-semibold space-y-10 [&_b]:text-custom-green [&_b]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
+            <div className='text-2xl sm:text-3xl font-semibold space-y-10 [&_b]:text-custom-green [&_b]:mr-1 sm:[&_p]:w-1/2 text-center sm:text-left'>
               <p>
                 <b>Ativação geral:</b>
                 atingir 10.5 milhões em vendas;
@@ -235,7 +235,7 @@ export default function Home() {
             <h2 className='font-heading text-6xl text-custom-pink text-center sm:text-left mb-10'>
               fatuRamento
             </h2>
-            <div className='text-2xl sm:text-4xl font-semibold space-y-10 text-custom-purple [&_b]:text-custom-pink [&_b]:mr-1 sm:[&_p]:w-1/2'>
+            <div className='text-2xl sm:text-3xl font-semibold space-y-10 text-custom-purple [&_b]:text-custom-pink [&_b]:mr-1 sm:[&_p]:w-1/2'>
               <p>
                 <b>Ativação geral:</b>
                 atingir 260.1 milhões em vendas (90% do objetivo da companhia do
