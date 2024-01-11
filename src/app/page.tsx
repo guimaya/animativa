@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Logo from '/public/logo-animativa.png'
 import MouseIcon from '/public/icon-mouse.svg'
-import MouseIconAnimated from '/public/asset.gif'
+import MouseIconAnimated from '/public/icon-arrow.svg'
 
 import WarnerLogo from '/public/logo-warner.png'
 import WarnerBookOne from '/public/warner-book-one.png'
@@ -37,7 +37,7 @@ export default function Home() {
         <Image
           src={MouseIconAnimated}
           alt='Arraste para baixo'
-          className='rotate-180 invert'
+          className='animate-bounce size-16'
         />
       </section>
       <section className='flex flex-col bg-warner bg-no-repeat bg-cover min-h-screen justify-center p-12 sm:p-20'>
