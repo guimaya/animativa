@@ -45,9 +45,15 @@ export default function WarnerSection() {
               quem atingir 200% do percentual individual dentro dos 4 primeiros vendedores, leva mais R$ 15.000.;
             </p>
           </div>
-          <Carousel className="ml-12 mt-10 max-w-[18rem]">
+          <Carousel
+            opts={{
+              align: 'start',
+              loop: true
+            }}
+            className="ml-12 mt-10 max-w-[18rem] sm:max-w-md"
+          >
             <CarouselContent>
-              <CarouselItem className="basis-1/2">
+              <CarouselItem className="basis-1/2 ">
                 <Image src={WarnerBookOne} alt="Livro Warner" className="" />
               </CarouselItem>
               <CarouselItem className="basis-1/2">
