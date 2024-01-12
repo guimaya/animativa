@@ -10,7 +10,7 @@ export default function FaturamentoSection() {
   })
 
   return (
-    <section className="flex flex-col items-center justify-center bg-faturamento  bg-cover bg-no-repeat p-12 sm:p-20 2xl:min-w-full">
+    <section className="flex flex-col items-center justify-center bg-faturamento bg-cover bg-no-repeat p-12 sm:p-20 2xl:min-w-full">
       <div className="container flex flex-col justify-around sm:flex-row">
         <div className="max-w-[751px] px-20 sm:px-0">
           <h2 className="mb-10 text-center font-heading text-6xl text-custom-pink sm:text-left">fatuRamento</h2>
@@ -26,7 +26,7 @@ export default function FaturamentoSection() {
               Atingir de 100 a 114.99% - 3 pontos <br />
               Atingir de 90 a 99.99% - 1 pontos
             </p>
-            <Accordion type="single" collapsible className="space-y-4 sm:w-1/2">
+            <Accordion type="single" collapsible className="max-w-[600px] space-y-4">
               <AccordionItem value="item-1" className="border-custom-purple">
                 <AccordionTrigger className="text-left text-2xl font-bold text-custom-pink">
                   Desconto concedido em negociações de vendas
