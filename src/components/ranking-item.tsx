@@ -4,7 +4,7 @@ import { MedalIcon } from '../../public/icon-medal'
 
 const RankingItem = ({ position, name }: { position: number; name: string }) => {
   const medalColors = ['text-yellow-500', 'text-gray-500', 'text-orange-500']
-  const medalColor = medalColors[position - 1] || 'white'
+  const medalColor = medalColors[position - 1] || ''
 
   return (
     <div className="relative">
