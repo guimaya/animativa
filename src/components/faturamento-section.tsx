@@ -2,22 +2,11 @@ import { faturamentoRanking } from '@/constants'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
 import { Container } from './container'
 import { MedalIcon } from '../../public/icon-medal'
+import RankingItem from './ranking-item'
 
 export default function FaturamentoSection() {
   const rankingItems = faturamentoRanking.map((position) => {
-    const medalColors = ['yellow', 'gray', 'orange']
-    const medalColor = medalColors[position.position - 1] || 'white'
-
-    return (
-      <div key={position.position} className="relative">
-        <Container>
-          {position.position <= 3 && (
-            <MedalIcon className={`absolute -top-2 left-2 h-10 w-10 fill-white text-${medalColor}-500`} />
-          )}
-          <p>{position.name}</p>
-        </Container>
-      </div>
-    )
+    return <RankingItem key={position.position} {...position} />
   })
 
   return (
