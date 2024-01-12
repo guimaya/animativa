@@ -17,7 +17,7 @@ export default function CariocaSection() {
             <Image src={CariocaLogo} alt="Logo Carioca" />
             <h2 className="font-heading text-6xl text-custom-green">Carioca</h2>
           </div>
-          <div className="space-y-10 px-2 text-center text-2xl font-semibold sm:px-0 sm:text-left [&_b]:mr-1 [&_b]:text-custom-green sm:[&_p]:w-2/3">
+          <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-green sm:[&_p]:w-2/3">
             <p>
               <b>Ativação geral:</b>
               atingir 10.5 milhões em vendas;
@@ -76,7 +76,7 @@ export default function CariocaSection() {
           >
             {rankingItems}
           </div>
-          <p className="mt-8 px-4 text-sm text-custom-yellow sm:px-0">
+          <p className="mt-8 px-4 text-sm font-bold text-white sm:px-0">
             Não encontrou o seu nome? Entre em contato como seu gestor regional e procure saber como alcançar a meta e
             superar os desafios desta campanha. 
           </p>

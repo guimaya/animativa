@@ -108,7 +108,7 @@ export default function FaturamentoSection() {
           >
             {rankingItems}
           </div>
-          <p className="mt-8 px-4 text-sm text-custom-yellow sm:px-0">
+          <p className="mt-8 px-4 text-sm font-bold text-white sm:px-0">
             Não encontrou o seu nome? Entre em contato como seu gestor regional e procure saber como alcançar a meta e
             superar os desafios desta campanha. 
           </p>

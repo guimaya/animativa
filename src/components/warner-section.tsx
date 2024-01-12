@@ -23,7 +23,7 @@ export default function WarnerSection() {
             <Image src={WarnerLogo} alt="Logo Warner" />
             <h2 className="font-heading text-6xl text-custom-yellow">Warner</h2>
           </div>
-          <div className="space-y-10 px-2 text-center text-2xl font-semibold sm:px-0 sm:text-left [&_b]:mr-1 [&_b]:text-custom-yellow sm:[&_p]:w-2/3">
+          <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-yellow sm:[&_p]:w-2/3">
             <p>
               <b>Ativação geral:</b>
               atingir 4.9 milhões em vendas;
@@ -75,12 +75,12 @@ export default function WarnerSection() {
           <h2 className="text-center font-heading text-6xl text-custom-yellow sm:text-left">Ranking</h2>
           <div
             className="mt-10 items-center justify-center space-y-4 text-black
-          [&_a]:text-black [&_div]:flex [&_div]:h-12 [&_div]:w-96 [&_div]:items-center [&_div]:justify-center [&_div]:rounded-full [&_div]:bg-white 
-        [&_div]:text-center"
+            [&_a]:text-black [&_div]:flex [&_div]:h-12 [&_div]:w-96 [&_div]:items-center [&_div]:justify-center [&_div]:rounded-full [&_div]:bg-white 
+              [&_div]:text-center"
           >
             {rankingItems}
           </div>
-          <p className="mt-10 px-4 text-sm text-custom-purple sm:px-0">
+          <p className="mt-8 px-4 text-sm font-bold text-white sm:px-0">
             Não encontrou o seu nome? Entre em contato como seu gestor regional e procure saber como alcançar a meta e
             superar os desafios desta campanha. 
           </p>
