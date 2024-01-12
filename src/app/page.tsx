@@ -116,7 +116,7 @@ export default function Home() {
                 )
               })}
             </div>
-            <p className="text-sm mt-10 text-custom-purple">
+            <p className="text-sm mt-10 text-custom-purple px-4 sm:px-0">
               Não encontrou o seu nome? Entre em contato como seu gestor
               regional e procure saber como alcançar a meta e superar os
               desafios desta campanha. 
@@ -211,7 +211,7 @@ export default function Home() {
                 )
               })}
             </div>
-            <p className="text-sm mt-8 text-custom-yellow">
+            <p className="text-sm mt-8 text-custom-yellow px-4 sm:px-0">
               Não encontrou o seu nome? Entre em contato como seu gestor
               regional e procure saber como alcançar a meta e superar os
               desafios desta campanha. 
@@ -342,7 +342,7 @@ export default function Home() {
                 )
               })}
             </div>
-            <p className="text-sm mt-8 text-custom-yellow">
+            <p className="text-sm mt-8 text-custom-yellow px-4 sm:px-0">
               Não encontrou o seu nome? Entre em contato como seu gestor
               regional e procure saber como alcançar a meta e superar os
               desafios desta campanha. 
