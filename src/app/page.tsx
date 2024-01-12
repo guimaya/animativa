@@ -23,7 +23,7 @@ import {
   AccordionItem,
   AccordionTrigger
 } from '@/components/ui/accordion'
-import { warnerRanking } from '@/constants'
+import { cariocaRanking, faturamentoRanking, warnerRanking } from '@/constants'
 
 export default function Home() {
   return (
@@ -79,7 +79,7 @@ export default function Home() {
                 primeiros vendedores, leva mais R$ 15.000.;
               </p>
             </div>
-            <Carousel className="max-w-xs mt-10 ml-8 sm:ml-10">
+            <Carousel className="max-w-[18rem] mt-10 ml-12">
               <CarouselContent>
                 <CarouselItem className="basis-1/2">
                   <Image src={WarnerBookOne} alt="Livro Warner" className="" />
@@ -203,36 +203,13 @@ export default function Home() {
               [&_div]:rounded-full [&_div]:w-96 [&_div]:h-12 [&_div]:bg-white [&_div]:text-center [&_div]:items-center [&_div]:flex [&_div]:justify-center 
             [&_a]:text-black"
             >
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
+              {cariocaRanking.map((position) => {
+                return (
+                  <div key={position.position}>
+                    <p>{position.name}</p>
+                  </div>
+                )
+              })}
             </div>
             <p className="text-sm mt-8 text-custom-yellow">
               Não encontrou o seu nome? Entre em contato como seu gestor
@@ -357,36 +334,13 @@ export default function Home() {
               [&_div]:rounded-full [&_div]:w-96 [&_div]:h-12 [&_div]:bg-white [&_div]:text-center [&_div]:items-center [&_div]:flex [&_div]:justify-center 
             [&_a]:text-black"
             >
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
-              <div>
-                <a>Ranking</a>
-              </div>
+              {faturamentoRanking.map((position) => {
+                return (
+                  <div key={position.position}>
+                    <p>{position.name}</p>
+                  </div>
+                )
+              })}
             </div>
             <p className="text-sm mt-8 text-custom-yellow">
               Não encontrou o seu nome? Entre em contato como seu gestor
