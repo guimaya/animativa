@@ -75,6 +75,6 @@
   }
 
   html {
-    @apply overflow-x-hidden antialiased scroll-smooth;
+    @apply overflow-x-hidden scroll-smooth antialiased;
   }
 }

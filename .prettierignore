@@ -1,0 +1,12 @@
+**/*.md
+**/*.svg
+**/*.ejs
+
+/node_modules
+
+/config
+/bun.lockb
+build
+dist
+
+.DS_Store
