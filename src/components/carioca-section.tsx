@@ -11,13 +11,13 @@ export default function CariocaSection() {
 
   return (
     <section className="flex flex-col items-center justify-center bg-carioca bg-cover bg-no-repeat p-12 sm:p-20 2xl:min-w-full">
-      <div className="container flex flex-col justify-around sm:flex-row ">
+      <div className="container flex flex-col justify-between sm:flex-row ">
         <div className="max-w-[751px] px-20 sm:px-0">
           <div className="mb-20 flex items-center space-x-4">
             <Image src={CariocaLogo} alt="Logo Carioca" />
             <h2 className="font-heading text-6xl text-custom-green">Carioca</h2>
           </div>
-          <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-green sm:[&_p]:w-2/3">
+          <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-green ">
             <p>
               <b>Ativação geral:</b>
               atingir 10.5 milhões em vendas;
@@ -35,7 +35,7 @@ export default function CariocaSection() {
               Incentivos de
               <b className="ml-2">Compre e ganhe:</b>
             </p>
-            <Accordion type="single" collapsible className="sm:w-1/2">
+            <Accordion type="single" collapsible className="max-w-[600px] space-y-4">
               <AccordionItem value="item-1">
                 <AccordionTrigger className="text-2xl font-bold">Clientes</AccordionTrigger>
                 <AccordionContent className="text-2xl font-semibold [&_b]:mr-1 [&_b]:text-custom-green">
@@ -76,7 +76,7 @@ export default function CariocaSection() {
           >
             {rankingItems}
           </div>
-          <p className="mt-8 px-4 text-sm font-bold text-white sm:px-0">
+          <p className="mt-8 max-w-sm px-4 text-sm font-bold text-white sm:px-0">
             Não encontrou o seu nome? Entre em contato como seu gestor regional e procure saber como alcançar a meta e
             superar os desafios desta campanha. 
           </p>

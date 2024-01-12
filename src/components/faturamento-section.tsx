@@ -11,7 +11,7 @@ export default function FaturamentoSection() {
 
   return (
     <section className="flex flex-col items-center justify-center bg-faturamento bg-cover bg-no-repeat p-12 sm:p-20 2xl:min-w-full">
-      <div className="container flex flex-col justify-around sm:flex-row">
+      <div className="container flex flex-col justify-between sm:flex-row">
         <div className="max-w-[751px] px-20 sm:px-0">
           <h2 className="mb-10 text-center font-heading text-6xl text-custom-pink sm:text-left">fatuRamento</h2>
           <div className="space-y-10 px-2 text-2xl font-semibold text-custom-purple sm:px-0 [&_b]:mr-1 [&_b]:text-custom-pink sm:[&_p]:w-2/3">
@@ -108,7 +108,7 @@ export default function FaturamentoSection() {
           >
             {rankingItems}
           </div>
-          <p className="mt-8 px-4 text-sm font-bold text-white sm:px-0">
+          <p className="mt-8 max-w-sm px-4 text-sm font-bold text-white sm:px-0">
             Não encontrou o seu nome? Entre em contato como seu gestor regional e procure saber como alcançar a meta e
             superar os desafios desta campanha. 
           </p>
