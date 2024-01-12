@@ -10,7 +10,7 @@ export default function FaturamentoSection() {
   })
 
   return (
-    <section className="flex flex-col items-center justify-center bg-faturamento bg-cover bg-no-repeat p-12 sm:p-20 2xl:min-w-full">
+    <section className="flex flex-col items-center justify-center bg-faturamento bg-cover bg-no-repeat p-12 sm:p-20 lg:min-w-full">
       <div className="container flex flex-col justify-between sm:flex-row">
         <div className="max-w-[751px] px-20 sm:px-0">
           <h2 className="mb-10 text-center font-heading text-6xl text-custom-pink sm:text-left">fatuRamento</h2>

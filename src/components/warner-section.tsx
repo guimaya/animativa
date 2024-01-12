@@ -16,7 +16,7 @@ export default function WarnerSection() {
   })
 
   return (
-    <section className="flex flex-col justify-center bg-warner bg-cover bg-no-repeat p-12 sm:px-0 sm:py-20 2xl:min-w-full">
+    <section className="flex flex-col justify-center bg-warner bg-cover bg-no-repeat p-12 sm:px-0 sm:py-20 xl:min-w-full">
       <div className="container flex flex-col justify-between sm:flex-row">
         <div className="max-w-[751px] px-20 sm:px-0">
           <div className="mb-20 flex items-center space-x-4">

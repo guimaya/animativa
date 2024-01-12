@@ -10,7 +10,7 @@ export default function CariocaSection() {
   })
 
   return (
-    <section className="flex flex-col items-center justify-center bg-carioca bg-cover bg-no-repeat p-12 sm:p-20 2xl:min-w-full">
+    <section className="flex flex-col items-center justify-center bg-carioca bg-cover bg-no-repeat p-12 sm:p-20 xl:min-w-full">
       <div className="container flex flex-col justify-between sm:flex-row ">
         <div className="max-w-[751px] px-20 sm:px-0">
           <div className="mb-20 flex items-center space-x-4">
