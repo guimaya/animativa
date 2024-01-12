@@ -31,12 +31,15 @@ export default function FaturamentoSection() {
                 <AccordionTrigger className="text-left text-2xl font-bold text-custom-pink">
                   Desconto concedido em negociações de vendas
                 </AccordionTrigger>
-                <AccordionContent className="text-2xl font-semibold ">
+                <AccordionContent className="text-2xl font-semibold">
                   Cálculo: A composição será feita considerando a RL para nivelar os preços entre os estados. Com isso,
                   será feita a composição total da venda realizada versus o valor total de venda considerando o preço de
-                  tabela (Rec. Liq). Até 25% - 5 pontos De 25.01 a 30% - 3 pontos De 30.1 a 35 % - 2 pontos De 35.1 a
-                  42% - 1 ponto
+                  tabela (Rec. Liq).
                 </AccordionContent>
+                <AccordionContent className="text-2xl font-semibold">Até 25% - 5 pontos</AccordionContent>
+                <AccordionContent className="text-2xl font-semibold">De 25.01 a 30% - 3 pontos</AccordionContent>
+                <AccordionContent className="text-2xl font-semibold">De 30.1 a 35 % - 2 pontos</AccordionContent>
+                <AccordionContent className="text-2xl font-semibold">De 35.1 a 42% - 1 ponto</AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2" className="border-custom-purple">
                 <AccordionTrigger className="text-left text-2xl font-bold text-custom-pink">
