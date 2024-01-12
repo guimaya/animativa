@@ -4,6 +4,22 @@ import { Container } from './container'
 import { MedalIcon } from '../../public/icon-medal'
 
 export default function FaturamentoSection() {
+  const rankingItems = faturamentoRanking.map((position) => {
+    const medalColors = ['yellow', 'gray', 'orange']
+    const medalColor = medalColors[position.position - 1] || 'white'
+
+    return (
+      <div key={position.position} className="relative">
+        <Container>
+          {position.position <= 3 && (
+            <MedalIcon className={`absolute -top-2 left-2 h-10 w-10 fill-white text-${medalColor}-500`} />
+          )}
+          <p>{position.name}</p>
+        </Container>
+      </div>
+    )
+  })
+
   return (
     <section className="flex flex-col items-center justify-center bg-faturamento  bg-cover bg-no-repeat p-12 sm:p-20 2xl:min-w-full">
       <div className="container flex flex-col justify-around sm:flex-row">
@@ -101,43 +117,7 @@ export default function FaturamentoSection() {
             className="mt-10 space-y-4 text-black 
             [&_div]:flex [&_div]:h-12 [&_div]:w-96 [&_div]:items-center [&_div]:justify-center [&_div]:rounded-full [&_div]:bg-white [&_div]:text-center"
           >
-            {faturamentoRanking.map((position) => {
-              if (position.position === 1) {
-                return (
-                  <div key={position.position} className="relative">
-                    <Container>
-                      <MedalIcon className="absolute -top-2 left-2 h-10 w-10 fill-white text-yellow-500" />
-                      <p>{position.name}</p>
-                    </Container>
-                  </div>
-                )
-              }
-              if (position.position === 2) {
-                return (
-                  <div key={position.position} className="relative">
-                    <Container>
-                      <MedalIcon className="absolute -top-2 left-2 h-10 w-10 fill-white text-gray-500" />
-                      <p>{position.name}</p>
-                    </Container>
-                  </div>
-                )
-              }
-              if (position.position === 3) {
-                return (
-                  <div key={position.position} className="relative">
-                    <Container>
-                      <MedalIcon className="absolute -top-2 left-2 h-10 w-10 fill-white text-orange-500" />
-                      <p>{position.name}</p>
-                    </Container>
-                  </div>
-                )
-              }
-              return (
-                <div key={position.position} className="relative">
-                  <p>{position.name}</p>
-                </div>
-              )
-            })}
+            {rankingItems}
           </div>
           <p className="mt-8 px-4 text-sm text-custom-yellow sm:px-0">
             Não encontrou o seu nome? Entre em contato como seu gestor regional e procure saber como alcançar a meta e
