@@ -71,8 +71,8 @@ export default function CariocaSection() {
           [&_a]:text-black [&_div]:flex [&_div]:h-12 [&_div]:w-96 [&_div]:items-center [&_div]:justify-center [&_div]:rounded-full [&_div]:bg-white 
         [&_div]:text-center"
           >
-            {cariocaRanking.map((position, index) => {
-              if (index === 0) {
+            {cariocaRanking.map((position) => {
+              if (position.position === 1) {
                 return (
                   <div key={position.position} className="relative">
                     <Container>
@@ -82,7 +82,7 @@ export default function CariocaSection() {
                   </div>
                 )
               }
-              if (index === 1) {
+              if (position.position === 2) {
                 return (
                   <div key={position.position} className="relative">
                     <Container>
@@ -92,7 +92,7 @@ export default function CariocaSection() {
                   </div>
                 )
               }
-              if (index === 2) {
+              if (position.position === 3) {
                 return (
                   <div key={position.position} className="relative">
                     <Container>
