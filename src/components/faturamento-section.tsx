@@ -17,7 +17,7 @@ export default function FaturamentoSection() {
           <div className="space-y-10 px-2 text-2xl font-semibold text-custom-purple sm:px-0 [&_b]:mr-1 [&_b]:text-custom-pink sm:[&_p]:w-2/3">
             <p>
               <b>Ativação geral:</b>
-              Ativação Geral: atingir o faturamento bruto de 260,1 milhões em vendas
+              atingir o faturamento bruto de 260,1 milhões em vendas
             </p>
             <p>
               <b>Gatilho para ativar:</b>
