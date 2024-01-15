@@ -33,10 +33,6 @@ export default function WarnerSection() {
               vender 25% a mais que no período anterior;
             </p>
             <p>
-              <b>Gatilho individual:</b>
-              ser o maior vendedor do período;
-            </p>
-            <p>
               <b>Premiação:</b>
               os 4 primeiros do ranking serão contemplados com R$ 10.000 cada;
             </p>
