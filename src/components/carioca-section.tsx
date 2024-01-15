@@ -18,23 +18,27 @@ export default function CariocaSection() {
             <h2 className="font-heading text-6xl text-custom-green">Carioca</h2>
           </div>
           <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-green ">
-            <p>
-              <b>Ativação geral:</b>
-              atingir 10.5 milhões em vendas;
-            </p>
-            <p>
-              <b>Gatilho para ativar:</b>
-              atingir 70% da meta de vendas;
-            </p>
-            <p>
-              <b>Premiação:</b>
-              Os 20 maiores compradores de Carioca concorrem a uma viagem à Itália no valor de R$ 30.000 e os três
-              representantes que mais venderem recebem R$ 5.000 cada.;
-            </p>
-            <p>
-              Incentivos de
-              <b className="ml-2">Compre e ganhe:</b>
-            </p>
+            <div className="space-y-10">
+              <h3 className="text-3xl">CAMPANHA 1 - ITÁLIA</h3>
+              <p>
+                <b>Ativação geral:</b>
+                atingir 10.5 milhões em vendas;
+              </p>
+              <p>
+                <b>Gatilho para ativar:</b>
+                atingir 70% da meta de vendas;
+              </p>
+              <p>
+                <b>Premiação:</b>
+                Os 20 maiores compradores de Carioca concorrem a uma viagem à Itália no valor de R$ 30.000 e os três
+                representantes que mais venderem recebem R$ 5.000 cada.;
+              </p>
+              <p>
+                Incentivos de
+                <b className="ml-2">Compre e ganhe:</b>
+              </p>
+            </div>
+
             <Accordion type="single" collapsible className="max-w-[600px] space-y-4">
               <AccordionItem value="item-1">
                 <AccordionTrigger className="text-2xl font-bold">Clientes</AccordionTrigger>
