@@ -10,7 +10,7 @@ export default function CariocaSection() {
   })
 
   return (
-    <section className="flex flex-col items-center justify-center bg-carioca bg-cover bg-no-repeat p-12 sm:p-20 xl:min-w-full">
+    <section className="flex flex-col  justify-center bg-carioca bg-cover bg-no-repeat p-12  xl:min-w-full">
       <div className="container flex flex-col justify-between sm:flex-row ">
         <div className="max-w-[751px] px-20 sm:px-0">
           <div className="mb-20 flex items-center space-x-4">
@@ -18,53 +18,49 @@ export default function CariocaSection() {
             <h2 className="font-heading text-6xl text-custom-green">Carioca</h2>
           </div>
           <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-green ">
-            <p>
-              <b>Ativação geral:</b>
-              atingir 10.5 milhões em vendas;
-            </p>
-            <p>
-              <b>Gatilho para ativar:</b>
-              atingir 70% da meta de vendas;
-            </p>
-            <p>
-              <b>Premiação:</b>
-              Os 20 maiores compradores de Carioca concorrem a uma viagem à Itália no valor de R$ 30.000 e os três
-              representantes que mais venderem recebem R$ 5.000 cada.;
-            </p>
-            <p>
-              Incentivos de
-              <b className="ml-2">Compre e ganhe:</b>
-            </p>
-            <Accordion type="single" collapsible className="max-w-[600px] space-y-4">
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-2xl font-bold">Clientes</AccordionTrigger>
-                <AccordionContent className="text-2xl font-semibold [&_b]:mr-1 [&_b]:text-custom-green">
-                  <b>3 primeiros:</b>a cada 100 mil reais em compras, ganham um IPhone 14 128gb cada;
-                </AccordionContent>
-                <AccordionContent className="text-2xl font-semibold [&_b]:mr-1 [&_b]:text-custom-green">
-                  <b>5 primeiros:</b>a cada 75 mil reais em compras, ganham um notebook cada;
-                </AccordionContent>
-                <AccordionContent className="text-2xl font-semibold [&_b]:mr-1 [&_b]:text-custom-green">
-                  <b>10 primeiros:</b>a cada 50 mil reais em compras, ganham um JBL, Caixa de Som Bluetooth cada;
-                </AccordionContent>
-                <AccordionContent className="text-2xl font-semibold [&_b]:mr-1 [&_b]:text-custom-green">
-                  <b>15 primeiros:</b>a cada 30 mil reais em compras, ganham um Smartwatch Galaxy Samsung Watch4 Bt 40mm
-                  - Preto cada;
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-2">
-                <AccordionTrigger className="text-2xl font-bold">Time de Vendas</AccordionTrigger>
-                <AccordionContent className="text-2xl font-semibold [&_b]:mr-1 [&_b]:text-custom-green">
-                  <b>3 primeiros:</b>a cada 100 mil reais em vendas, ganham um IPhone 14 128gb cada;
-                </AccordionContent>
-                <AccordionContent className="text-2xl font-semibold [&_b]:mr-1 [&_b]:text-custom-green">
-                  <b>5 primeiros:</b>a cada 50 mil reais em vendas, ganham um Notebook cada;
-                </AccordionContent>
-                <AccordionContent className="text-2xl font-semibold [&_b]:mr-1 [&_b]:text-custom-green">
-                  <b>10 primeiros:</b> a cada 30 mil reais em vendas, ganham uma JBL, Caixa de Som Bluetooth cada;
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
+            <div className="space-y-4">
+              <h3 className="text-3xl">CAMPANHA 1 - ITÁLIA</h3>
+              <p>
+                <b>Ativação geral:</b>
+                atingir 10.5 milhões em vendas;
+              </p>
+              <p>
+                <b>Gatilho para ativar:</b>
+                atingir 70% da meta de vendas;
+              </p>
+              <p>
+                <b>Premiação:</b>
+                Os 20 maiores compradores de Carioca concorrem a uma viagem à Itália no valor de R$ 30.000 e os três
+                representantes que mais venderem recebem R$ 5.000 cada.;
+              </p>
+            </div>
+            <div className="space-y-4">
+              <h3 className="text-3xl">CAMPANHA 2 - VENDEU GANHOU</h3>
+              <p className="pt-2 text-3xl font-bold text-custom-green">Clientes</p>
+              <p>
+                <b>3 primeiros:</b> a cada 100 mil reais em compras, ganham um IPhone 14 128gb cada;
+              </p>
+              <p>
+                <b>5 primeiros:</b> a cada 75 mil reais em compras, ganham um notebook cada;
+              </p>
+              <p>
+                <b>10 primeiros:</b> a cada 50 mil reais em compras, ganham um JBL, Caixa de Som Bluetooth cada;
+              </p>
+              <p>
+                <b>15 primeiros:</b> a cada 30 mil reais em compras, ganham um Smartwatch Galaxy Samsung Watch4 Bt 40mm
+                - Preto cada;
+              </p>
+              <p className="pt-4 text-3xl font-bold text-custom-green">Time de Vendas</p>
+              <p>
+                <b>3 primeiros:</b> a cada 100 mil reais em vendas, ganham um IPhone 14 128gb cada;
+              </p>
+              <p>
+                <b>5 primeiros:</b> a cada 50 mil reais em vendas, ganham um Notebook cada;
+              </p>
+              <p>
+                <b>10 primeiros:</b> a cada 30 mil reais em vendas, ganham uma JBL, Caixa de Som Bluetooth cada;
+              </p>
+            </div>
           </div>
         </div>
         <div className="px-20 pt-10 sm:px-0 sm:pt-0">

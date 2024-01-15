@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section className="flex min-h-screen flex-col items-center justify-around space-y-6 bg-hero bg-cover bg-no-repeat p-12 text-center xl:min-w-full">
       <Image src={LogoAnimativa} alt="Logo Animativa" />
-      <div className="space-y-20 text-2xl sm:w-3/4 sm:space-y-40 sm:text-4xl">
+      <div className="container space-y-20 text-2xl sm:space-y-40 sm:text-4xl">
         <p className="font-heading">
           A Animativa lançou em abril de 2023 algumas campanhas para a sua força de vendas superar as metas e colocar
           ainda mais din din no bolso.

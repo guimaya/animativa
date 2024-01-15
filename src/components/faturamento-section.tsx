@@ -10,21 +10,19 @@ export default function FaturamentoSection() {
   })
 
   return (
-    <section className="flex flex-col items-center justify-center bg-faturamento bg-cover bg-no-repeat p-12 sm:p-20 lg:min-w-full">
+    <section className="flex flex-col items-center justify-center bg-faturamento  bg-cover bg-no-repeat p-12 sm:p-20 lg:min-w-full">
       <div className="container flex flex-col justify-between sm:flex-row">
         <div className="max-w-[751px] px-20 sm:px-0">
-          <h2 className="mb-10 text-center font-heading text-6xl text-custom-pink sm:text-left">fatuRamento</h2>
+          <h2 className="mb-10  font-heading text-6xl text-custom-pink sm:text-left">fatuRamento venda + ganhe++</h2>
           <div className="space-y-10 px-2 text-2xl font-semibold text-custom-purple sm:px-0 [&_b]:mr-1 [&_b]:text-custom-pink sm:[&_p]:w-2/3">
             <p>
               <b>Ativação geral:</b>
-              atingir 260.1 milhões em vendas (90% do objetivo da companhia do mercado interno 289 milhões).
+              Ativação Geral: atingir o faturamento bruto de 260,1 milhões em vendas
             </p>
             <p>
               <b>Gatilho para ativar:</b>
               <br />
-              Atingir 115% - 5 pontos <br />
-              Atingir de 100 a 114.99% - 3 pontos <br />
-              Atingir de 90 a 99.99% - 1 pontos
+              Indicadores de Desempenho (Quanto melhor os resultados mais pontos)
             </p>
             <Accordion type="single" collapsible className="max-w-[600px] space-y-4">
               <AccordionItem value="item-1" className="border-custom-purple">
