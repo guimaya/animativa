@@ -13,7 +13,7 @@ export default function FaturamentoSection() {
     <section className="flex flex-col items-center justify-center bg-faturamento  bg-cover bg-no-repeat p-12 sm:p-20 lg:min-w-full">
       <div className="container flex flex-col justify-between sm:flex-row">
         <div className="max-w-[751px] px-20 sm:px-0">
-          <h2 className="mb-10  font-heading text-6xl text-custom-pink sm:text-left">fatuRamento venda + ganhe++</h2>
+          <h2 className="mb-10  font-heading text-6xl text-custom-pink sm:text-left">fatuRamento venda+ ganhe++</h2>
           <div className="space-y-10 px-2 text-2xl font-semibold text-custom-purple sm:px-0 [&_b]:mr-1 [&_b]:text-custom-pink sm:[&_p]:w-2/3">
             <p>
               <b>Ativação geral:</b>
