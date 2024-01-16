@@ -38,7 +38,7 @@ export default function WarnerSection() {
             </p>
             <p>
               <b>Premiação Bônus:</b>
-              quem atingir 200% do percentual individual dentro dos 4 primeiros vendedores, leva mais R$ 15.000.;
+              quem atingir 200% do percentual individual dentro dos 4 primeiros vendedores, leva mais R$ 15.000.
             </p>
           </div>
           <Carousel

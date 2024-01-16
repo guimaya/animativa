@@ -31,34 +31,34 @@ export default function CariocaSection() {
               <p>
                 <b>Premiação:</b>
                 Os 20 maiores compradores de Carioca concorrem a uma viagem à Itália no valor de R$ 30.000 e os três
-                representantes que mais venderem recebem R$ 5.000 cada.;
+                representantes que mais venderem recebem R$ 5.000 cada.
               </p>
             </div>
             <div className="space-y-4">
               <h3 className="text-3xl">CAMPANHA 2 - VENDEU GANHOU</h3>
               <p className="pt-2 text-3xl font-bold text-custom-green">Clientes</p>
               <p>
-                <b>3 primeiros:</b> a cada 100 mil reais em compras, ganham um IPhone 14 128gb cada;
+                <b>3 primeiros:</b> a cada 100 mil reais em compras, cada um leva um IPhone 14 128gb;
               </p>
               <p>
-                <b>5 primeiros:</b> a cada 75 mil reais em compras, ganham um notebook cada;
+                <b>5 primeiros:</b> a cada 75 mil reais em compras, cada um leva um notebook;
               </p>
               <p>
-                <b>10 primeiros:</b> a cada 50 mil reais em compras, ganham um JBL, Caixa de Som Bluetooth cada;
+                <b>10 primeiros:</b> a cada 50 mil reais em compras, cada um leva uma JBL, Caixa de Som Bluetooth;
               </p>
               <p>
-                <b>15 primeiros:</b> a cada 30 mil reais em compras, ganham um Smartwatch Galaxy Samsung Watch4 Bt 40mm
-                - Preto cada;
+                <b>15 primeiros:</b> a cada 30 mil reais em compras, cada um leva um Smartwatch Galaxy Samsung Watch4 Bt
+                40mm - Preto.
               </p>
               <p className="pt-4 text-3xl font-bold text-custom-green">Time de Vendas</p>
               <p>
-                <b>3 primeiros:</b> a cada 100 mil reais em vendas, ganham um IPhone 14 128gb cada;
+                <b>3 primeiros:</b> a cada 100 mil reais em vendas, cada um leva um IPhone 14 128gb;
               </p>
               <p>
-                <b>5 primeiros:</b> a cada 50 mil reais em vendas, ganham um Notebook cada;
+                <b>5 primeiros:</b> a cada 50 mil reais em vendas, cada um leva um Notebook;
               </p>
               <p>
-                <b>10 primeiros:</b> a cada 30 mil reais em vendas, ganham uma JBL, Caixa de Som Bluetooth cada;
+                <b>10 primeiros:</b> a cada 30 mil reais em vendas, cada um leva uma JBL, Caixa de Som Bluetooth.
               </p>
             </div>
           </div>
