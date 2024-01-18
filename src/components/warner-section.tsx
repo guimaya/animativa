@@ -26,15 +26,15 @@ export default function WarnerSection() {
           <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-yellow">
             <p>
               <b>Ativação geral:</b>
-              atingir 4.9 milhões em vendas;
+              atingir 4.9 milhões em vendas.
             </p>
             <p>
               <b>Gatilho para ativar:</b>
-              vender 25% a mais que no período anterior;
+              vender 25% a mais que no período anterior.
             </p>
             <p>
               <b>Premiação:</b>
-              os 4 primeiros do ranking serão contemplados com R$ 10.000 cada;
+              os 4 primeiros do ranking serão contemplados com R$ 10.000 cada.
             </p>
             <p>
               <b>Premiação Bônus:</b>

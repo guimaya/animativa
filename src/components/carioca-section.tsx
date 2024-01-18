@@ -22,11 +22,11 @@ export default function CariocaSection() {
               <h3 className="text-3xl">CAMPANHA 1 - ITÁLIA</h3>
               <p>
                 <b>Ativação geral:</b>
-                atingir 10.5 milhões em vendas;
+                atingir 10.5 milhões em vendas.
               </p>
               <p>
                 <b>Gatilho para ativar:</b>
-                atingir 70% da meta de vendas;
+                atingir 70% da meta de vendas.
               </p>
               <p>
                 <b>Premiação:</b>
@@ -38,13 +38,13 @@ export default function CariocaSection() {
               <h3 className="text-3xl">CAMPANHA 2 - VENDEU GANHOU</h3>
               <p className="pt-2 text-3xl font-bold text-custom-green">Clientes</p>
               <p>
-                <b>3 primeiros:</b> a cada 100 mil reais em compras, cada um leva um IPhone 14 128gb;
+                <b>3 primeiros:</b> a cada 100 mil reais em compras, cada um leva um IPhone 14 128gb.
               </p>
               <p>
-                <b>5 primeiros:</b> a cada 75 mil reais em compras, cada um leva um notebook;
+                <b>5 primeiros:</b> a cada 75 mil reais em compras, cada um leva um notebook.
               </p>
               <p>
-                <b>10 primeiros:</b> a cada 50 mil reais em compras, cada um leva uma JBL, Caixa de Som Bluetooth;
+                <b>10 primeiros:</b> a cada 50 mil reais em compras, cada um leva uma JBL, Caixa de Som Bluetooth.
               </p>
               <p>
                 <b>15 primeiros:</b> a cada 30 mil reais em compras, cada um leva um Smartwatch Galaxy Samsung Watch4 Bt
@@ -52,10 +52,10 @@ export default function CariocaSection() {
               </p>
               <p className="pt-4 text-3xl font-bold text-custom-green">Time de Vendas</p>
               <p>
-                <b>3 primeiros:</b> a cada 100 mil reais em vendas, cada um leva um IPhone 14 128gb;
+                <b>3 primeiros:</b> a cada 100 mil reais em vendas, cada um leva um IPhone 14 128gb.
               </p>
               <p>
-                <b>5 primeiros:</b> a cada 50 mil reais em vendas, cada um leva um Notebook;
+                <b>5 primeiros:</b> a cada 50 mil reais em vendas, cada um leva um Notebook.
               </p>
               <p>
                 <b>10 primeiros:</b> a cada 30 mil reais em vendas, cada um leva uma JBL, Caixa de Som Bluetooth.
