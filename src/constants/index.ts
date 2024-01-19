@@ -1,46 +1,15 @@
 export const warnerRanking = [
-  {
-    name: 'Warner 1',
-    position: 1
-  },
-  {
-    name: 'Warner 2',
-    position: 2
-  },
-  {
-    name: 'Warner 3',
-    position: 3
-  },
-  {
-    name: 'Warner 4',
-    position: 4
-  },
-  {
-    name: 'Warner 5',
-    position: 5
-  },
-  {
-    name: 'Warner 6',
-    position: 6
-  },
-  {
-    name: 'Warner 7',
-    position: 7
-  },
-  {
-    name: 'Warner 8',
-    position: 8
-  },
-  {
-    name: 'Warner 9',
-    position: 9
-  },
-  {
-    name: 'Warner 10',
-    position: 10
-  }
+  { name: 'M DO S A DE SOUZA REPRESENTACOES', position: 1 },
+  { name: 'GRAFIT REPRESENTACOES COMERCIAIS', position: 2 },
+  { name: 'SCHLEU SERRA REPRESENTACOES', position: 3 },
+  { name: 'SUL BRINDES REPRESENTACOES LTDA', position: 4 },
+  { name: 'ELIANE DO NASCIMENTO CRUZ', position: 5 },
+  { name: 'FACCURY REPRESENTACOES DE', position: 6 },
+  { name: 'J K REPRESENTACOES LTDA', position: 7 },
+  { name: 'PLENA REPRESENTACOES SC LTDA ME', position: 8 },
+  { name: 'ORGANIZACAO AVA VITORIA', position: 9 },
+  { name: 'P E H PAPER REPRESENTACOES LTDA M', position: 10 }
 ]
-
 export const cariocaRanking = [
   {
     name: 'Carioca 1',
