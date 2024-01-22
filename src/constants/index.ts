@@ -11,87 +11,27 @@ export const warnerRanking = [
   { name: 'P E H PAPER REPRESENTACOES LTDA M', position: 10 }
 ]
 export const cariocaRanking = [
-  {
-    name: 'Carioca 1',
-    position: 1
-  },
-  {
-    name: 'Carioca 2',
-    position: 2
-  },
-  {
-    name: 'Carioca 3',
-    position: 3
-  },
-  {
-    name: 'Carioca 4',
-    position: 4
-  },
-  {
-    name: 'Carioca 5',
-    position: 5
-  },
-  {
-    name: 'Carioca 6',
-    position: 6
-  },
-  {
-    name: 'Carioca 7',
-    position: 7
-  },
-  {
-    name: 'Carioca 8',
-    position: 8
-  },
-  {
-    name: 'Carioca 9',
-    position: 9
-  },
-  {
-    name: 'Carioca 10',
-    position: 10
-  }
+  { name: 'BMP UTILIDADES DOMESTICAS S A', position: 1 },
+  { name: 'ANDERSON SCHOENAU CARDOSO', position: 2 },
+  { name: 'LIDER COMERCIO E IND LTDA', position: 3 },
+  { name: 'LOJAS TEM VARIEDADES LTDA', position: 4 },
+  { name: 'LEITURA CAMPINAS LTDA', position: 5 },
+  { name: 'GB COMERCIO E SERVICOS LTDA', position: 6 },
+  { name: 'MEDICAL DA AMAZONIA EIREL', position: 7 },
+  { name: 'PAPEL E CIA PAPELARIA PRO', position: 8 },
+  { name: 'TEND TUDO BAZAR COMERCIO ATACADISTA', position: 9 },
+  { name: 'ESTILO LIVRARIA E PAPELARIA LTDA', position: 10 }
 ]
 
 export const faturamentoRanking = [
-  {
-    name: 'Faturamento 1',
-    position: 1
-  },
-  {
-    name: 'Faturamento 2',
-    position: 2
-  },
-  {
-    name: 'Faturamento 3',
-    position: 3
-  },
-  {
-    name: 'Faturamento 4',
-    position: 4
-  },
-  {
-    name: 'Faturamento 5',
-    position: 5
-  },
-  {
-    name: 'Faturamento 6',
-    position: 6
-  },
-  {
-    name: 'Faturamento 7',
-    position: 7
-  },
-  {
-    name: 'Faturamento 8',
-    position: 8
-  },
-  {
-    name: 'Faturamento 9',
-    position: 9
-  },
-  {
-    name: 'Faturamento 10',
-    position: 10
-  }
+  { name: 'OC INOVA REPRESENTACAO EIRELI', position: 1 },
+  { name: 'SAUANDAG REPRESENTACOES LTDA', position: 2 },
+  { name: 'PATRICIA', position: 3 },
+  { name: 'LAIZ OLIVEIRA', position: 4 },
+  { name: 'ISABELLA', position: 5 },
+  { name: 'L&C REPRESENTACOES LTDA', position: 6 },
+  { name: 'CARLA PATRICIA DA SILVA CARDOSO', position: 7 },
+  { name: 'D C PIMENTEL REPRESENTACOES', position: 8 },
+  { name: 'HELTON LAURENCO DE BARROS', position: 9 },
+  { name: 'ANA PAULA DE SOUZA MELO', position: 10 }
 ]
