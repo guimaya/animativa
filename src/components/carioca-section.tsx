@@ -65,7 +65,7 @@ export default function CariocaSection() {
             </div>
           </div>
         </div>
-        <div className="px-20 pt-10 sm:px-0 sm:pt-0">
+        <div className="flex flex-col px-20 pt-10 sm:px-0 sm:pt-0">
           <h2 className="text-center font-heading text-6xl text-custom-green sm:text-left">Ranking</h2>
           <h3 className="text-center font-heading text-4xl text-custom-green sm:text-left">camPanha itáLia</h3>
 
