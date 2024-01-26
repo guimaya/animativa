@@ -33,7 +33,20 @@ export default function CariocaSection() {
                 representantes que mais venderem recebem R$ 5.000 cada.
               </p>
             </div>
-            <div className="pt-24 sm:pt-52">
+            <div className="block px-20 pt-10 sm:hidden sm:px-0 sm:pt-0">
+              <h2 className="text-center font-heading text-6xl text-custom-green sm:text-left">Ranking</h2>
+              <h3 className="text-center font-heading text-4xl text-custom-green sm:text-left">camPanha itáLia</h3>
+
+              <div className="mt-10 space-y-4 text-base  font-normal text-black [&_a]:text-black [&_div]:flex [&_div]:h-12 [&_div]:w-96 [&_div]:items-center [&_div]:justify-center [&_div]:rounded-full [&_div]:bg-white [&_div]:text-center">
+                {rankingItems}
+              </div>
+              <p className="mt-8 max-w-sm px-4 text-sm font-bold text-white sm:px-0">
+                Não encontrou o seu nome? Entre em contato como seu gestor regional e procure saber como alcançar a meta
+                e superar os desafios desta campanha. 
+              </p>
+            </div>
+
+            <div className="flex justify-center pt-12 sm:block sm:items-center sm:pt-52">
               <Image src={CariocaLogo} alt="Logo Carioca" className="w-[14rem]" />
             </div>
             <div className="space-y-4">
@@ -65,7 +78,7 @@ export default function CariocaSection() {
             </div>
           </div>
         </div>
-        <div className="px-20 pt-10 sm:px-0 sm:pt-0">
+        <div className="hidden px-20 pt-10 sm:block sm:px-0 sm:pt-0">
           <h2 className="text-center font-heading text-6xl text-custom-green sm:text-left">Ranking</h2>
           <h3 className="text-center font-heading text-4xl text-custom-green sm:text-left">camPanha itáLia</h3>
 
