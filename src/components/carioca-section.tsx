@@ -35,7 +35,7 @@ export default function CariocaSection() {
               </p>
             </div>
             <div className="flex justify-center">
-              <div className="flex w-full border-2 border-dashed border-custom-purple shadow-xl  sm:mt-[28rem]"></div>
+              <div className=" mt-[28rem] hidden w-full border-2 border-dashed border-custom-purple shadow-xl sm:block"></div>
             </div>
             <div className="space-y-4">
               <h3 className="font-heading text-4xl text-custom-purple">Campanha 2 - Vendeu ganhOu</h3>
