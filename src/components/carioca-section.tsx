@@ -17,8 +17,8 @@ export default function CariocaSection() {
             <Image src={CariocaLogo} alt="Logo Carioca" />
             <h2 className="font-heading text-6xl text-custom-green">Carioca</h2>
           </div>
-          <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-green ">
-            <div className="space-y-4">
+          <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-green">
+            <div className="space-y-4 sm:mb-[30rem]">
               <h3 className="text-3xl">CAMPANHA 1 - ITÁLIA</h3>
               <p>
                 <b>Ativação geral:</b>
