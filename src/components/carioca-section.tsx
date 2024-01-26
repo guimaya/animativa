@@ -14,7 +14,6 @@ export default function CariocaSection() {
       <div className="container flex flex-col justify-between sm:flex-row ">
         <div className="max-w-[751px] px-20 sm:px-0">
           <div className="mb-20 flex items-center space-x-4">
-            <Image src={CariocaLogo} alt="Logo Carioca" />
             <h2 className="font-heading text-6xl text-custom-green">Carioca</h2>
           </div>
           <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-green">
@@ -34,8 +33,8 @@ export default function CariocaSection() {
                 representantes que mais venderem recebem R$ 5.000 cada.
               </p>
             </div>
-            <div className="flex justify-center">
-              <div className=" mt-[28rem] hidden w-full border-2 border-dashed border-custom-purple shadow-xl sm:block"></div>
+            <div className="flex justify-center py-24 sm:py-52">
+              <Image src={CariocaLogo} alt="Logo Carioca" />
             </div>
             <div className="space-y-4">
               <h3 className="font-heading text-4xl text-custom-purple">Campanha 2 - Vendeu ganhOu</h3>
