@@ -34,6 +34,9 @@ export default function CariocaSection() {
                 representantes que mais venderem recebem R$ 5.000 cada.
               </p>
             </div>
+            <div className="flex justify-center">
+              <div className="flex w-full border-2 border-dashed border-custom-purple shadow-xl  sm:mt-[28rem]"></div>
+            </div>
             <div className="space-y-4">
               <h3 className="font-heading text-4xl text-custom-purple">Campanha 2 - Vendeu ganhOu</h3>
               <p className="pt-2 text-3xl font-bold text-custom-green">Clientes</p>
