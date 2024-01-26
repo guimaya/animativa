@@ -46,7 +46,7 @@ export default function CariocaSection() {
               </p>
             </div>
 
-            <div className="flex justify-center pt-12 sm:block sm:items-center sm:pt-52">
+            <div className="flex justify-center pt-12 sm:block sm:items-center sm:pt-96">
               <Image src={CariocaLogo} alt="Logo Carioca" className="w-[14rem]" />
             </div>
             <div className="space-y-4">
