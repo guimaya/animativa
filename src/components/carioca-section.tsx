@@ -33,8 +33,8 @@ export default function CariocaSection() {
                 representantes que mais venderem recebem R$ 5.000 cada.
               </p>
             </div>
-            <div className="flex justify-center py-24 sm:py-52">
-              <Image src={CariocaLogo} alt="Logo Carioca" />
+            <div className="pt-24 sm:pt-52">
+              <Image src={CariocaLogo} alt="Logo Carioca" className="w-[14rem]" />
             </div>
             <div className="space-y-4">
               <h3 className="font-heading text-4xl text-custom-purple">Campanha 2 - Vendeu ganhOu</h3>
