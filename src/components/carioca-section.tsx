@@ -19,7 +19,7 @@ export default function CariocaSection() {
           </div>
           <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-green">
             <div className="mb-10 space-y-4">
-              <h3 className="text-3xl text-custom-purple">CAMPANHA 1 - ITÁLIA</h3>
+              <h3 className="font-heading text-3xl text-custom-purple">Campanha 1 - itáLia</h3>
               <p>
                 <b>Ativação geral:</b>
                 atingir 10.5 milhões em vendas.
@@ -35,7 +35,7 @@ export default function CariocaSection() {
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="text-3xl text-custom-purple">CAMPANHA 2 - VENDEU GANHOU</h3>
+              <h3 className="text-3xl text-custom-purple">Campanha 2 - venDeu ganHou</h3>
               <p className="pt-2 text-3xl font-bold text-custom-green">Clientes</p>
               <p>
                 <b>3 primeiros:</b> a cada 100 mil reais em compras, cada um leva um IPhone 14 128gb.
