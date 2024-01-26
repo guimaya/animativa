@@ -18,7 +18,7 @@ export default function CariocaSection() {
             <h2 className="font-heading text-6xl text-custom-green">Carioca</h2>
           </div>
           <div className="space-y-10 px-2 text-2xl font-semibold sm:px-0 [&_b]:mr-1 [&_b]:text-custom-green">
-            <div className="mb-4 space-y-4">
+            <div className="mb-10 space-y-4">
               <h3 className="text-3xl text-custom-purple">CAMPANHA 1 - ITÁLIA</h3>
               <p>
                 <b>Ativação geral:</b>
