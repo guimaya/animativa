@@ -51,7 +51,7 @@ export default function CariocaSection() {
             </div>
             <div className="space-y-4">
               <h3 className="font-heading text-4xl text-custom-purple">Campanha 2 - Vendeu ganhOu</h3>
-              <p className="pt-2 text-3xl font-bold text-custom-green">Clientes</p>
+              <p className="pt-2 font-heading text-3xl font-bold text-custom-purple">Clientes</p>
               <p>
                 <b>3 primeiros:</b> a cada 100 mil reais em compras, cada um leva um IPhone 14 128gb.
               </p>
@@ -65,7 +65,7 @@ export default function CariocaSection() {
                 <b>15 primeiros:</b> a cada 30 mil reais em compras, cada um leva um Smartwatch Galaxy Samsung Watch4 Bt
                 40mm - Preto.
               </p>
-              <p className="pt-4 text-3xl font-bold text-custom-green">Time de Vendas</p>
+              <p className="pt-4 font-heading text-3xl font-bold text-custom-purple">tiMe de veNdas</p>
               <p>
                 <b>3 primeiros:</b> a cada 100 mil reais em vendas, cada um leva um IPhone 14 128gb.
               </p>

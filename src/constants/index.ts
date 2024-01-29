@@ -8,7 +8,7 @@ export const warnerRanking = [
   { name: 'J K REPRESENTACOES LTDA', position: 7 },
   { name: 'PLENA REPRESENTACOES SC LTDA ME', position: 8 },
   { name: 'ORGANIZACAO AVA VITORIA', position: 9 },
-  { name: 'P E H PAPER REPRESENTACOES LTDA M', position: 10 }
+  { name: 'P E H PAPER REPRESENTACOES LTDA ME', position: 10 }
 ]
 export const cariocaRanking = [
   { name: 'BMP UTILIDADES DOMESTICAS S A', position: 1 },
@@ -25,13 +25,13 @@ export const cariocaRanking = [
 
 export const faturamentoRanking = [
   { name: 'OC INOVA REPRESENTACAO EIRELI', position: 1 },
-  { name: 'SAUANDAG REPRESENTACOES LTDA', position: 2 },
-  { name: 'PATRICIA', position: 3 },
-  { name: 'LAIZ OLIVEIRA', position: 4 },
+  { name: 'LAIZ OLIVEIRA', position: 2 },
+  { name: 'ANA PAULA DE SOUZA MELO', position: 3 },
+  { name: 'SAUANDAG REPRESENTACOES LTDA', position: 4 },
   { name: 'ISABELLA', position: 5 },
-  { name: 'L&C REPRESENTACOES LTDA', position: 6 },
-  { name: 'CARLA PATRICIA DA SILVA CARDOSO', position: 7 },
+  { name: 'PATRICIA', position: 6 },
+  { name: 'HELTON LAURENCO DE BARROS', position: 7 },
   { name: 'D C PIMENTEL REPRESENTACOES', position: 8 },
-  { name: 'HELTON LAURENCO DE BARROS', position: 9 },
-  { name: 'ANA PAULA DE SOUZA MELO', position: 10 }
+  { name: 'A VILLA REPRESENTACOES LTDA ME', position: 9 },
+  { name: 'L&C REPRESENTACOES LTDA', position: 10 }
 ]
