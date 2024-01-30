@@ -46,7 +46,7 @@ export default function WarnerSection() {
               align: 'start',
               loop: true
             }}
-            className="ml-12 mt-10 max-w-[18rem] sm:ml-0 sm:max-w-lg"
+            className="ml-12 mt-10 max-w-[16rem] sm:ml-0 sm:max-w-lg"
           >
             <CarouselContent>
               <CarouselItem className="basis-1/2 sm:basis-1/4">
