@@ -10,7 +10,7 @@ export default function CariocaSection() {
   })
 
   return (
-    <section className="flex flex-col  justify-center bg-carioca bg-cover bg-no-repeat p-12  xl:min-w-full">
+    <section className="flex flex-col justify-center bg-carioca bg-cover bg-no-repeat p-12 xl:min-w-full">
       <div className="container flex flex-col justify-between sm:flex-row ">
         <div className="max-w-[751px] px-20 sm:px-0">
           <div className="mb-20 flex items-center space-x-4">
@@ -33,7 +33,7 @@ export default function CariocaSection() {
                 representantes que mais venderem recebem R$ 5.000 cada.
               </p>
             </div>
-            <div className="block px-20 pt-10 sm:hidden sm:px-0 sm:pt-0">
+            <div className="block pt-10 sm:hidden sm:px-0 sm:pt-0">
               <h2 className="text-center font-heading text-6xl text-custom-green sm:text-left">Ranking</h2>
               <h3 className="text-center font-heading text-4xl text-custom-green sm:text-left">camPanha itáLia</h3>
 
