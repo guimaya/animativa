@@ -105,7 +105,7 @@ export default function FaturamentoSection() {
           <h2 className="text-center font-heading text-6xl text-custom-purple sm:text-left">Ranking</h2>
           <div
             className="mt-10 space-y-4 text-black 
-            [&_div]:flex [&_div]:h-12 [&_div]:w-96 [&_div]:items-center [&_div]:justify-center [&_div]:rounded-full [&_div]:bg-white [&_div]:text-center"
+            [&_div]:flex [&_div]:h-12 [&_div]:w-[22rem] [&_div]:items-center [&_div]:justify-center [&_div]:rounded-full [&_div]:bg-white [&_div]:text-center sm:[&_div]:w-96"
           >
             {rankingItems}
           </div>

@@ -71,8 +71,8 @@ export default function WarnerSection() {
           <h2 className="text-center font-heading text-6xl text-custom-yellow sm:text-left">Ranking</h2>
           <div
             className="mt-10 items-center justify-center space-y-4 text-black
-            [&_a]:text-black [&_div]:flex [&_div]:h-12 [&_div]:w-96 [&_div]:items-center [&_div]:justify-center [&_div]:rounded-full [&_div]:bg-white 
-              [&_div]:text-center"
+            [&_a]:text-black [&_div]:flex [&_div]:h-12 [&_div]:w-[22rem] [&_div]:items-center [&_div]:justify-center [&_div]:rounded-full [&_div]:bg-white [&_div]:text-center 
+              sm:[&_div]:w-96"
           >
             {rankingItems}
           </div>
