@@ -33,7 +33,7 @@ export default function CariocaSection() {
                 representantes que mais venderem recebem R$ 5.000 cada.
               </p>
             </div>
-            <div className="block pt-10 sm:hidden sm:px-0 sm:pt-0">
+            <div className="pt-10 sm:hidden sm:px-0 sm:pt-0">
               <h2 className="text-center font-heading text-6xl text-custom-green sm:text-left">Ranking</h2>
               <h3 className="text-center font-heading text-4xl text-custom-green sm:text-left">camPanha itáLia</h3>
 
