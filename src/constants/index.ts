@@ -24,14 +24,14 @@ export const cariocaRanking = [
 ]
 
 export const faturamentoRanking = [
-  { name: 'OC INOVA REPRESENTACAO EIRELI', position: 1 },
-  { name: 'LAIZ OLIVEIRA', position: 2 },
-  { name: 'ANA PAULA DE SOUZA MELO', position: 3 },
-  { name: 'SAUANDAG REPRESENTACOES LTDA', position: 4 },
-  { name: 'ISABELLA', position: 5 },
-  { name: 'PATRICIA', position: 6 },
-  { name: 'HELTON LAURENCO DE BARROS', position: 7 },
-  { name: 'D C PIMENTEL REPRESENTACOES', position: 8 },
-  { name: 'A VILLA REPRESENTACOES LTDA ME', position: 9 },
-  { name: 'L&C REPRESENTACOES LTDA', position: 10 }
+  { name: 'LAIZ OLIVEIRA', position: 1 },
+  { name: 'SAUANDAG REPRESENTACOES LTDA', position: 2 },
+  { name: 'ISABELLA BERNARDES', position: 3 },
+  { name: 'PATRICIA SALLES', position: 4 },
+  { name: 'L&C REPRESENTACOES LTDA', position: 5 },
+  { name: 'HELTON LAURENCO DE BARROS', position: 6 },
+  { name: 'D C PIMENTEL REPRESENTACOES', position: 7 },
+  { name: 'A VILLA REPRESENTACOES LTDA ME', position: 8 },
+  { name: 'CARLA PATRICIA DA SILVA CARDOSO', position: 9 },
+  { name: 'ANDREIA DA SILVA NASCIMENTO', position: 10 }
 ]
