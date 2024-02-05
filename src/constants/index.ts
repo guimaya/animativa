@@ -4,11 +4,11 @@ export const warnerRanking = [
   { name: 'SCHLEU SERRA REPRESENTACOES', position: 3 },
   { name: 'SUL BRINDES REPRESENTACOES LTDA', position: 4 },
   { name: 'ELIANE DO NASCIMENTO CRUZ', position: 5 },
-  { name: 'FACCURY REPRESENTACOES DE', position: 6 },
-  { name: 'J K REPRESENTACOES LTDA', position: 7 },
+  { name: 'J K REPRESENTACOES LTDA', position: 6 },
+  { name: 'FACCURY REPRESENTACOES DE', position: 7 },
   { name: 'PLENA REPRESENTACOES SC LTDA ME', position: 8 },
-  { name: 'ORGANIZACAO AVA VITORIA', position: 9 },
-  { name: 'P E H PAPER REPRESENTACOES LTDA ME', position: 10 }
+  { name: 'P E H PAPER REPRESENTACOES LTDA ME', position: 9 },
+  { name: 'ORGANIZACAO AVA VITORIA', position: 10 }
 ]
 export const cariocaRanking = [
   { name: 'BMP UTILIDADES DOMESTICAS S A', position: 1 },
@@ -25,13 +25,13 @@ export const cariocaRanking = [
 
 export const faturamentoRanking = [
   { name: 'LAIZ OLIVEIRA', position: 1 },
-  { name: 'SAUANDAG REPRESENTACOES LTDA', position: 2 },
+  { name: 'PATRICIA SALLES', position: 2 },
   { name: 'ISABELLA BERNARDES', position: 3 },
-  { name: 'PATRICIA SALLES', position: 4 },
-  { name: 'L&C REPRESENTACOES LTDA', position: 5 },
-  { name: 'HELTON LAURENCO DE BARROS', position: 6 },
-  { name: 'D C PIMENTEL REPRESENTACOES', position: 7 },
-  { name: 'A VILLA REPRESENTACOES LTDA ME', position: 8 },
-  { name: 'CARLA PATRICIA DA SILVA CARDOSO', position: 9 },
-  { name: 'ANDREIA DA SILVA NASCIMENTO', position: 10 }
+  { name: 'L&C REPRESENTACOES LTDA', position: 4 },
+  { name: 'A VILLA REPRESENTACOES LTDA ME', position: 5 },
+  { name: 'DANIEL DE SOUSA', position: 6 },
+  { name: 'ANDREIA DA SILVA NASCIMENTO', position: 7 },
+  { name: 'M PINHEIRO COMERCIO E REPRESENTACOE', position: 8 },
+  { name: 'SAUANDAG REPRESENTACOES LTDA', position: 9 },
+  { name: 'IZABELA VICENTIM', position: 10 }
 ]
