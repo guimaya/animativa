@@ -53,27 +53,27 @@ export default function CariocaSection() {
               <h3 className="font-heading text-4xl text-custom-purple">Campanha 2 - Vendeu ganhOu</h3>
               <p className="pt-2 font-heading text-3xl font-bold text-custom-purple">Clientes</p>
               <p>
-                <b>3 primeiros:</b> a cada 100 mil reais em compras, cada um leva um IPhone 14 128gb.
+                <b>3 primeiros:</b> acima de 100 mil reais em compras, cada um leva um IPhone 14 128gb.
               </p>
               <p>
-                <b>5 primeiros:</b> a cada 75 mil reais em compras, cada um leva um notebook.
+                <b>5 primeiros:</b> acima de 75 mil reais em compras, cada um leva um notebook.
               </p>
               <p>
-                <b>10 primeiros:</b> a cada 50 mil reais em compras, cada um leva uma JBL, Caixa de Som Bluetooth.
+                <b>10 primeiros:</b> acima de 50 mil reais em compras, cada um leva uma JBL, Caixa de Som Bluetooth.
               </p>
               <p>
-                <b>15 primeiros:</b> a cada 30 mil reais em compras, cada um leva um Smartwatch Galaxy Samsung Watch4 Bt
-                40mm - Preto.
+                <b>15 primeiros:</b> acima de 30 mil reais em compras, cada um leva um Smartwatch Galaxy Samsung Watch4
+                Bt 40mm - Preto.
               </p>
               <p className="pt-4 font-heading text-3xl font-bold text-custom-purple">tiMe de veNdas</p>
               <p>
-                <b>3 primeiros:</b> a cada 100 mil reais em vendas, cada um leva um IPhone 14 128gb.
+                <b>3 primeiros:</b> acima de 100 mil reais em vendas, cada um leva um IPhone 14 128gb.
               </p>
               <p>
-                <b>5 primeiros:</b> a cada 50 mil reais em vendas, cada um leva um Notebook.
+                <b>5 primeiros:</b> acima de 50 mil reais em vendas, cada um leva um Notebook.
               </p>
               <p>
-                <b>10 primeiros:</b> a cada 30 mil reais em vendas, cada um leva uma JBL, Caixa de Som Bluetooth.
+                <b>10 primeiros:</b> acima de 30 mil reais em vendas, cada um leva uma JBL, Caixa de Som Bluetooth.
               </p>
             </div>
           </div>
