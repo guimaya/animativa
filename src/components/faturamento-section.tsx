@@ -19,11 +19,18 @@ export default function FaturamentoSection() {
               <b>Ativação geral:</b>
               atingir o faturamento bruto de 260,1 milhões em vendas.
             </p>
-            <p>
+            <div className="flex flex-col space-y-3 ">
               <b>Gatilho para ativar:</b>
-              <br />
-              Indicadores de Desempenho (Quanto melhor os resultados mais pontos).
-            </p>
+              <p>
+                · Atingir 115% - <b>5 pontos</b>
+              </p>
+              <p>
+                · Atingir de 100% a 114.99% - <b>3 pontos</b>
+              </p>
+              <p>
+                · Atingir de 90% a 99.99% - <b>1 ponto</b>
+              </p>
+            </div>
             <Accordion type="single" collapsible className="max-w-[600px] space-y-4">
               <AccordionItem value="item-1" className="border-custom-purple">
                 <AccordionTrigger className="text-left text-2xl font-bold text-custom-pink">
