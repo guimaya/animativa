@@ -9,7 +9,7 @@ const RankingItem = ({ position, name }: { position: number; name: string }) => 
   return (
     <div className="relative">
       <Container>
-        {position <= 3 && <MedalIcon className={`absolute -top-2 left-2 h-10 w-10 fill-white ${medalColor}`} />}
+        {position <= 3 && <MedalIcon className={`absolute -left-5 -top-1 h-10 w-10 fill-white ${medalColor}`} />}
         <p>{name}</p>
       </Container>
     </div>
