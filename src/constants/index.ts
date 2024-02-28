@@ -1,14 +1,14 @@
 export const warnerRanking = [
   { name: 'HELTON LAURENCO DE BARROS', position: 1 },
   { name: 'MARCONDES & MARCONDES REPRESENTACAO', position: 2 },
-  { name: 'GRAFIT REPRESENTACOES COMERCIAIS', position: 3 },
-  { name: 'M DO S A DE SOUZA REPRESENTACOES', position: 4 },
-  { name: 'SCHLEU SERRA REPRESENTACOES', position: 5 },
-  { name: 'POSITIVACAO REPRESENTACOES EIRELI', position: 6 },
-  { name: 'PLENA REPRESENTACOES SC LTDA ME', position: 7 },
-  { name: 'J K REPRESENTACOES LTDA', position: 8 },
-  { name: 'ORGANIZACAO AVA VITORIA', position: 9 },
-  { name: 'SUL BRINDES REPRESENTACOES LTDA', position: 10 }
+  { name: 'P E H PAPER REPRESENTACOES LTDA ME', position: 3 },
+  { name: 'GRAFIT REPRESENTACOES COMERCIAIS', position: 4 },
+  { name: 'M DO S A DE SOUZA REPRESENTACOES', position: 5 },
+  { name: 'SCHLEU SERRA REPRESENTACOES', position: 6 },
+  { name: 'POSITIVACAO REPRESENTACOES EIRELI', position: 7 },
+  { name: 'PLENA REPRESENTACOES SC LTDA ME', position: 8 },
+  { name: 'J K REPRESENTACOES LTDA', position: 9 },
+  { name: 'ORGANIZACAO AVA VITORIA', position: 10 }
 ]
 export const cariocaRanking = [
   { name: 'BMP UTILIDADES DOMESTICAS S A', position: 1 },
@@ -25,13 +25,13 @@ export const cariocaRanking = [
 
 export const faturamentoRanking = [
   { name: 'LAIZ OLIVEIRA', position: 1 },
-  { name: 'J H FERNANDES BALDIM', position: 2 },
-  { name: 'A VILLA REPRESENTACOES LTDA ME', position: 3 },
-  { name: 'M PINHEIRO COMERCIO E REPRESENTACOE', position: 4 },
-  { name: 'SAUANDAG REPRESENTACOES LTDA', position: 5 },
-  { name: 'DANIEL DE SOUSA', position: 6 },
-  { name: 'ROBERTO SOUZA E CIA LTDA', position: 7 },
-  { name: 'ANDREIA DA SILVA NASCIMENTO', position: 8 },
-  { name: 'IZABELA VICENTIM', position: 9 },
-  { name: 'ISABELLA BERNARDES', position: 10 }
+  { name: 'SAUANDAG REPRESENTACOES LTDA', position: 2 },
+  { name: 'DANIEL DE SOUSA', position: 3 },
+  { name: 'OC INOVA REPRESENTACAO EIRELI', position: 4 },
+  { name: 'M PINHEIRO COMERCIO E REPRESENTACOE', position: 5 },
+  { name: 'E VERA CRUZ DA SILVA REPRESENTACOES', position: 6 },
+  { name: 'IZABELA VICENTIM', position: 7 },
+  { name: 'ROBERTO SOUZA E CIA LTDA', position: 8 },
+  { name: 'ANDREIA DA SILVA NASCIMENTO', position: 9 },
+  { name: 'MAROPEL REPRESENTACOES', position: 10 }
 ]
