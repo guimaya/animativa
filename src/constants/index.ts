@@ -1,11 +1,11 @@
 export const warnerRanking = [
   { name: 'HELTON LAURENCO DE BARROS', position: 1 },
-  { name: 'MARCONDES & MARCONDES REPRESENTACAO', position: 2 },
-  { name: 'P E H PAPER REPRESENTACOES LTDA ME', position: 3 },
+  { name: 'P E H PAPER REPRESENTACOES LTDA ME', position: 2 },
+  { name: 'MARCONDES & MARCONDES REPRESENTACAO', position: 3 },
   { name: 'GRAFIT REPRESENTACOES COMERCIAIS', position: 4 },
   { name: 'M DO S A DE SOUZA REPRESENTACOES', position: 5 },
-  { name: 'SCHLEU SERRA REPRESENTACOES', position: 6 },
-  { name: 'POSITIVACAO REPRESENTACOES EIRELI', position: 7 },
+  { name: 'POSITIVACAO REPRESENTACOES EIRELI', position: 6 },
+  { name: 'SCHLEU SERRA REPRESENTACOES', position: 7 },
   { name: 'PLENA REPRESENTACOES SC LTDA ME', position: 8 },
   { name: 'J K REPRESENTACOES LTDA', position: 9 },
   { name: 'ORGANIZACAO AVA VITORIA', position: 10 }
