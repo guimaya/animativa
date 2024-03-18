@@ -33,5 +33,5 @@ export const faturamentoRanking = [
   { name: 'ANDREIA DA SILVA NASCIMENTO', position: 7 },
   { name: 'P E H PAPER REPRESENTACOES LTDA ME', position: 8 },
   { name: 'E VERA CRUZ DA SILVA REPRESENTACOES', position: 9 },
-  { name: 'ROBERTO SOUZA E CIA LTDA', position: 10 }
+  { name: 'PATRICIA SALLES', position: 10 }
 ]
